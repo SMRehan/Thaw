@@ -307,6 +307,17 @@ nonisolated enum SearchIndex {
             property: .general("hideDockIconWhenToggling")
         ),
         SearchEntry(
+            id: "general.showDockIconWithSettings",
+            titleKey: "Show Dock icon while Settings is open",
+            titleText: "Show Dock icon while Settings is open",
+            descriptionText: "Turn this off to keep Thaw out of the Dock entirely, including the Dock's recent apps. Settings and other windows still open in front and take keyboard focus.",
+            pane: .general,
+            sectionKey: nil,
+            sectionText: nil,
+            keywords: ["dock", "icon", "settings", "recent apps", "accessory", "regular", "window"],
+            property: .general("showDockIconWithSettings")
+        ),
+        SearchEntry(
             id: "general.simpleMode",
             titleKey: "Simple Mode",
             titleText: "Simple Mode",
