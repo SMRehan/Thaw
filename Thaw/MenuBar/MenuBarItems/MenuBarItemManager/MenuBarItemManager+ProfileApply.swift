@@ -304,7 +304,8 @@ extension MenuBarItemManager {
     /// The outer cacheItemsRegardless holds cacheGate while awaiting this apply,
     /// so an inline recache would be dropped and leave quit apps in the cache.
     /// uiSettleDelay lets WindowServer settle first.
-    private func scheduleDeferredCacheRefresh() {
+    func scheduleDeferredCacheRefresh() {
+        deferredCacheRefreshCount += 1
         Task { [weak self] in
             try? await Task.sleep(for: MenuBarItemManager.uiSettleDelay)
             guard let self else { return }

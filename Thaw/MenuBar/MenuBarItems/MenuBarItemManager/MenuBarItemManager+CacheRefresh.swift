@@ -56,6 +56,45 @@ extension MenuBarItemManager {
         return false
     }
 
+    /// Runs one more cache pass after a pass was discarded as mid expand/collapse.
+    ///
+    /// The discarded pass has already committed the window IDs, so the change
+    /// detector won't run another until they change again, which can take
+    /// minutes. Until then the Thaw Bar keeps showing a moved item in its old
+    /// section. A separate Task, because the discarding pass still holds
+    /// cacheGate. midTransitionSkipStreak bounds the retries: once
+    /// maxMidTransitionSkips passes in a row are discarded, the next is accepted.
+    func scheduleCacheRetryAfterMidTransitionSkip(
+        suppressAutomaticMoves: Bool,
+        suppressSavedOrderPersistence: Bool
+    ) {
+        Task { [weak self] in
+            try? await Task.sleep(for: MenuBarItemManager.uiSettleDelay)
+            await self?.cacheItemsRegardless(
+                options: .init(
+                    skipRecentMoveCheck: true,
+                    skipSavedLayoutApply: true,
+                    suppressAutomaticMoves: suppressAutomaticMoves,
+                    suppressSavedOrderPersistence: suppressSavedOrderPersistence
+                )
+            )
+        }
+    }
+
+    /// Whether a cache pass that handed its publish to a saved-layout apply
+    /// still has to schedule a refresh itself.
+    ///
+    /// The apply schedules one when it finishes or abandons its moves. When it
+    /// returns earlier, deferred because user input stayed active or skipped
+    /// for an open menu, nothing does, and the committed window IDs keep the
+    /// change detector quiet.
+    static nonisolated func savedLayoutHandoffNeedsCacheRefresh(
+        deferredRefreshesBeforeApply: Int,
+        deferredRefreshesAfterApply: Int
+    ) -> Bool {
+        deferredRefreshesAfterApply == deferredRefreshesBeforeApply
+    }
+
     /// Caches the current items if they changed, fixing the control item order first.
     func cacheItemsIfNeeded() async {
         let rawWindowIDs = Bridging.getMenuBarWindowList(option: [.itemsOnly, .activeSpace])
