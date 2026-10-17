@@ -158,6 +158,9 @@ final class MenuBarItemManager {
     /// The running refresh after a mid expand/collapse discard, if any.
     var midTransitionRetryTask: Task<Void, Never>?
 
+    /// The merged flags of the requests that running refresh serves.
+    var midTransitionRetryFlags: MidTransitionRetryFlags?
+
     /// How many cache cycles a windowID stays eligible as "recently seen".
     static let recentWindowIDCycleWindow = 10
 

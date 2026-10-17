@@ -52,4 +52,30 @@ struct SavedLayoutHandoffRefreshTests {
     func completedPassEndsRefresh() {
         #expect(!MenuBarItemManager.shouldRetryScheduledCacheRefresh(attemptCompleted: true, attempt: 1, maxAttempts: 10))
     }
+
+    /// A discard that arrives while a retry is running is merged into it.
+    /// Losing a later pass's need for persistence would skip saving the order.
+    @Test("Merged retry flags stay suppressed only if every request suppressed them")
+    func mergedRetryFlagsKeepEveryRequirement() {
+        let suppressBoth = MenuBarItemManager.MidTransitionRetryFlags(
+            suppressAutomaticMoves: true,
+            suppressSavedOrderPersistence: true
+        )
+        let needsPersistence = MenuBarItemManager.MidTransitionRetryFlags(
+            suppressAutomaticMoves: true,
+            suppressSavedOrderPersistence: false
+        )
+        let needsMoves = MenuBarItemManager.MidTransitionRetryFlags(
+            suppressAutomaticMoves: false,
+            suppressSavedOrderPersistence: true
+        )
+
+        #expect(suppressBoth.merged(with: suppressBoth) == suppressBoth)
+        #expect(suppressBoth.merged(with: needsPersistence) == needsPersistence)
+        #expect(needsPersistence.merged(with: suppressBoth) == needsPersistence)
+        #expect(needsPersistence.merged(with: needsMoves) == MenuBarItemManager.MidTransitionRetryFlags(
+            suppressAutomaticMoves: false,
+            suppressSavedOrderPersistence: false
+        ))
+    }
 }

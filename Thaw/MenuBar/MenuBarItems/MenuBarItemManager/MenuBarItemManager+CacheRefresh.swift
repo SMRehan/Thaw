@@ -79,6 +79,13 @@ extension MenuBarItemManager {
     /// until they change again.
     @discardableResult
     func refreshCacheUntilCycleCompletes(options: CacheOptions) async -> Bool {
+        await refreshCacheUntilCycleCompletes { options }
+    }
+
+    /// Like ``refreshCacheUntilCycleCompletes(options:)``, reading the options
+    /// again before every attempt so requests merged in meanwhile take effect.
+    @discardableResult
+    func refreshCacheUntilCycleCompletes(options currentOptions: () -> CacheOptions) async -> Bool {
         var attempt = 0
         while true {
             attempt += 1
@@ -87,7 +94,7 @@ extension MenuBarItemManager {
                 return false
             }
             let cacheAttempt = CacheAttempt()
-            await cacheItemsRegardless(options: options, cacheAttempt: cacheAttempt)
+            await cacheItemsRegardless(options: currentOptions(), cacheAttempt: cacheAttempt)
             guard Self.shouldRetryScheduledCacheRefresh(
                 attemptCompleted: cacheAttempt.didCompleteCycle,
                 attempt: attempt,
@@ -109,25 +116,48 @@ extension MenuBarItemManager {
     /// detector won't run another until they change again, which can take
     /// minutes. Until then the Thaw Bar keeps showing a moved item in its old
     /// section. A separate Task, because the discarding pass still holds
-    /// cacheGate. Only one runs at a time: a retry pass that is itself
-    /// discarded leaves the next attempt to the running loop.
+    /// cacheGate. Only one runs at a time: a later request while it runs is
+    /// merged into its flags (see ``MidTransitionRetryFlags``) instead of
+    /// starting a second loop, and every attempt reads the merged flags.
     func scheduleCacheRetryAfterMidTransitionSkip(
         suppressAutomaticMoves: Bool,
         suppressSavedOrderPersistence: Bool
     ) {
+        let request = MidTransitionRetryFlags(
+            suppressAutomaticMoves: suppressAutomaticMoves,
+            suppressSavedOrderPersistence: suppressSavedOrderPersistence
+        )
+        midTransitionRetryFlags = midTransitionRetryFlags?.merged(with: request) ?? request
         guard midTransitionRetryTask == nil else {
             return
         }
         midTransitionRetryTask = Task { [weak self] in
-            await self?.refreshCacheUntilCycleCompletes(
-                options: .init(
+            await self?.refreshCacheUntilCycleCompletes {
+                let flags = self?.midTransitionRetryFlags ?? request
+                return CacheOptions(
                     skipRecentMoveCheck: true,
                     skipSavedLayoutApply: true,
-                    suppressAutomaticMoves: suppressAutomaticMoves,
-                    suppressSavedOrderPersistence: suppressSavedOrderPersistence
+                    suppressAutomaticMoves: flags.suppressAutomaticMoves,
+                    suppressSavedOrderPersistence: flags.suppressSavedOrderPersistence
                 )
-            )
+            }
             self?.midTransitionRetryTask = nil
+            self?.midTransitionRetryFlags = nil
+        }
+    }
+
+    /// The suppress flags of the pending mid-transition retries.
+    nonisolated struct MidTransitionRetryFlags: Equatable {
+        var suppressAutomaticMoves: Bool
+        var suppressSavedOrderPersistence: Bool
+
+        /// Each flag stays set only if every merged request set it: one pass
+        /// that needs automatic moves or saved-order persistence gets them.
+        func merged(with other: MidTransitionRetryFlags) -> MidTransitionRetryFlags {
+            MidTransitionRetryFlags(
+                suppressAutomaticMoves: suppressAutomaticMoves && other.suppressAutomaticMoves,
+                suppressSavedOrderPersistence: suppressSavedOrderPersistence && other.suppressSavedOrderPersistence
+            )
         }
     }
 
