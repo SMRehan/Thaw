@@ -56,21 +56,70 @@ extension MenuBarItemManager {
         return false
     }
 
-    /// Runs one more cache pass after a pass was discarded as mid expand/collapse.
+    /// How many passes a scheduled refresh runs before giving up, about three
+    /// seconds at uiSettleDelay apart.
+    static let scheduledRefreshMaxAttempts = 10
+
+    /// Whether a scheduled refresh runs another pass after this one.
+    static nonisolated func shouldRetryScheduledCacheRefresh(
+        attemptCompleted: Bool,
+        attempt: Int,
+        maxAttempts: Int
+    ) -> Bool {
+        !attemptCompleted && attempt < maxAttempts
+    }
+
+    /// Runs cache passes, uiSettleDelay apart, until one completes a cycle or
+    /// the attempts run out.
+    ///
+    /// A pass returns without completing when another pass holds cacheGate,
+    /// the user is dragging an item, a move lands mid-pass, or its result is
+    /// discarded as mid expand/collapse. The callers' window IDs are already
+    /// committed, so without retrying nothing else would run another pass
+    /// until they change again.
+    @discardableResult
+    func refreshCacheUntilCycleCompletes(options: CacheOptions) async -> Bool {
+        var attempt = 0
+        while true {
+            attempt += 1
+            try? await Task.sleep(for: MenuBarItemManager.uiSettleDelay)
+            guard !Task.isCancelled else {
+                return false
+            }
+            let cacheAttempt = CacheAttempt()
+            await cacheItemsRegardless(options: options, cacheAttempt: cacheAttempt)
+            guard Self.shouldRetryScheduledCacheRefresh(
+                attemptCompleted: cacheAttempt.didCompleteCycle,
+                attempt: attempt,
+                maxAttempts: Self.scheduledRefreshMaxAttempts
+            ) else {
+                if !cacheAttempt.didCompleteCycle {
+                    MenuBarItemManager.diagLog.warning(
+                        "Scheduled cache refresh gave up after \(attempt) attempt(s) without a completed cycle"
+                    )
+                }
+                return cacheAttempt.didCompleteCycle
+            }
+        }
+    }
+
+    /// Refreshes the cache after a pass was discarded as mid expand/collapse.
     ///
     /// The discarded pass has already committed the window IDs, so the change
     /// detector won't run another until they change again, which can take
     /// minutes. Until then the Thaw Bar keeps showing a moved item in its old
     /// section. A separate Task, because the discarding pass still holds
-    /// cacheGate. midTransitionSkipStreak bounds the retries: once
-    /// maxMidTransitionSkips passes in a row are discarded, the next is accepted.
+    /// cacheGate. Only one runs at a time: a retry pass that is itself
+    /// discarded leaves the next attempt to the running loop.
     func scheduleCacheRetryAfterMidTransitionSkip(
         suppressAutomaticMoves: Bool,
         suppressSavedOrderPersistence: Bool
     ) {
-        Task { [weak self] in
-            try? await Task.sleep(for: MenuBarItemManager.uiSettleDelay)
-            await self?.cacheItemsRegardless(
+        guard midTransitionRetryTask == nil else {
+            return
+        }
+        midTransitionRetryTask = Task { [weak self] in
+            await self?.refreshCacheUntilCycleCompletes(
                 options: .init(
                     skipRecentMoveCheck: true,
                     skipSavedLayoutApply: true,
@@ -78,6 +127,7 @@ extension MenuBarItemManager {
                     suppressSavedOrderPersistence: suppressSavedOrderPersistence
                 )
             )
+            self?.midTransitionRetryTask = nil
         }
     }
 

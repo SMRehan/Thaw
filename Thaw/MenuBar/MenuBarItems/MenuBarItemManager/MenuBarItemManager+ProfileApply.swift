@@ -307,10 +307,11 @@ extension MenuBarItemManager {
     func scheduleDeferredCacheRefresh() {
         deferredCacheRefreshCount += 1
         Task { [weak self] in
-            try? await Task.sleep(for: MenuBarItemManager.uiSettleDelay)
             guard let self else { return }
             // Re-entering applySavedLayout would live-lock on windowID churn.
-            await self.cacheItemsRegardless(
+            // Retried until a pass completes: one dropped at a busy cacheGate or
+            // during a drag would otherwise leave the cache stale.
+            await self.refreshCacheUntilCycleCompletes(
                 options: .init(
                     skipRecentMoveCheck: true,
                     skipSavedLayoutApply: true

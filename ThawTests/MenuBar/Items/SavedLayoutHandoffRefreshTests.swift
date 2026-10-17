@@ -37,4 +37,19 @@ struct SavedLayoutHandoffRefreshTests {
             deferredRefreshesAfterApply: 7
         ))
     }
+
+    /// A pass dropped at a busy cacheGate, during a drag, or discarded as mid
+    /// expand/collapse doesn't complete a cycle and has to be retried, within
+    /// a bound so a persistent cause can't loop forever.
+    @Test("A scheduled refresh retries an incomplete pass within its bound")
+    func scheduledRefreshRetriesWithinBound() {
+        #expect(MenuBarItemManager.shouldRetryScheduledCacheRefresh(attemptCompleted: false, attempt: 1, maxAttempts: 10))
+        #expect(MenuBarItemManager.shouldRetryScheduledCacheRefresh(attemptCompleted: false, attempt: 9, maxAttempts: 10))
+        #expect(!MenuBarItemManager.shouldRetryScheduledCacheRefresh(attemptCompleted: false, attempt: 10, maxAttempts: 10))
+    }
+
+    @Test("A completed pass ends a scheduled refresh")
+    func completedPassEndsRefresh() {
+        #expect(!MenuBarItemManager.shouldRetryScheduledCacheRefresh(attemptCompleted: true, attempt: 1, maxAttempts: 10))
+    }
 }

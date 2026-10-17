@@ -155,6 +155,9 @@ final class MenuBarItemManager {
     /// is coming.
     var deferredCacheRefreshCount = 0
 
+    /// The running refresh after a mid expand/collapse discard, if any.
+    var midTransitionRetryTask: Task<Void, Never>?
+
     /// How many cache cycles a windowID stays eligible as "recently seen".
     static let recentWindowIDCycleWindow = 10
 
