@@ -773,6 +773,9 @@ extension MenuBarItemManager {
 
         let items = await MenuBarItem.getMenuBarItems(option: .activeSpace)
         var failedContexts = [TemporarilyShownItemContext]()
+        // A context deferred for a hidden menu bar needs the timer even after
+        // a forced rehide, whose callers don't always re-arm it.
+        var deferredBehindHiddenMenuBar = false
 
         appState.hidEventManager.stopAll()
         defer {
@@ -850,6 +853,7 @@ extension MenuBarItemManager {
                     "Menu bar is hidden; deferring rehide of \(item.logString) without counting an attempt"
                 )
                 failedContexts.append(context)
+                deferredBehindHiddenMenuBar = true
                 continue
             }
 
@@ -925,7 +929,7 @@ extension MenuBarItemManager {
                 """
             )
             temporarilyShownItemContexts.append(contentsOf: failedContexts.reversed())
-            if !force {
+            if !force || deferredBehindHiddenMenuBar {
                 runRehideTimer(for: 3)
             }
         }
