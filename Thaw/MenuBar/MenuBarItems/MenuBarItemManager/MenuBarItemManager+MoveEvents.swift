@@ -314,13 +314,7 @@ extension MenuBarItemManager {
         if warpIsOnScreen, eventLocations.press != warpPoint {
             MouseHelpers.warpCursor(to: eventLocations.press)
         }
-        // Noted before posting: the press and release go through the session
-        // event tap and move the real cursor even when the attempt then fails.
         let displayBounds = NSScreen.screens.map { CGDisplayBounds($0.displayID) }
-        cursorTrace?.notePostedEvents(
-            at: [eventLocations.press, eventLocations.release],
-            displayBounds: displayBounds
-        )
         let source = try getEventSource()
         try permitLocalEvents()
         let releaseItem = strategy == .faithfulDrag || strategy == .sourceAnchoredTeleport
@@ -357,6 +351,13 @@ extension MenuBarItemManager {
 
         // The press may be down; the guard releases it if the attempt stalls.
         releaseGuard.arm()
+        // Noted right before the first submission. The press goes out next, and
+        // the armed guard can post the planned release; both pass through the
+        // session event tap and move the real cursor even if the attempt fails.
+        cursorTrace?.notePostedEvents(
+            at: [eventLocations.press, eventLocations.release],
+            displayBounds: displayBounds
+        )
         do {
             if let dragPlan {
                 itemOrigin = try await postFaithfulDragSteps(
@@ -366,7 +367,9 @@ extension MenuBarItemManager {
                         source: source,
                         startOrigin: itemOrigin,
                         openingEvent: mouseDown,
-                        releaseGuard: releaseGuard
+                        releaseGuard: releaseGuard,
+                        cursorTrace: cursorTrace,
+                        displayBounds: displayBounds
                     ),
                     timeout: timeout,
                     destination: destination,
@@ -417,7 +420,6 @@ extension MenuBarItemManager {
                         "Parked release kept planned point \(releaseLocation.x) instead of reflowed \(releasePoints.end.x)"
                     )
                 }
-                cursorTrace?.notePostedEvents(at: [releaseLocation], displayBounds: displayBounds)
                 let liveReleaseItem = strategy == .sourceAnchoredTeleport
                     ? releaseEndpoints.source
                     : releaseEndpoints.target
@@ -429,6 +431,7 @@ extension MenuBarItemManager {
                 ) else {
                     throw EventError.eventCreationFailure(releaseEndpoints.source)
                 }
+                cursorTrace?.notePostedEvents(at: [releaseLocation], displayBounds: displayBounds)
                 try await budget.run(maximum: timeout, repeating: 2) { allowance in
                     try await scrombleEvent(
                         liveMouseUp,
@@ -509,6 +512,9 @@ extension MenuBarItemManager {
         /// The already-built mouse down that opens the drag.
         let openingEvent: CGEvent
         let releaseGuard: PressReleaseGuard
+        /// Records each point posted through the session event tap.
+        let cursorTrace: MoveCursorTrace?
+        let displayBounds: [CGRect]
     }
 
     /// Always releases on the bar before propagating a failure.
@@ -564,6 +570,7 @@ extension MenuBarItemManager {
                 }
                 event = liveEvent
             }
+            drag.cursorTrace?.notePostedEvents(at: [step.point], displayBounds: drag.displayBounds)
             try await budget.run(maximum: timeout) { allowance in
                 try await scrombleEvent(event, item: liveItem, timeout: allowance)
             }
@@ -612,6 +619,7 @@ extension MenuBarItemManager {
         ) else {
             throw EventError.eventCreationFailure(releaseEndpoints.source)
         }
+        drag.cursorTrace?.notePostedEvents(at: [releasePoint], displayBounds: drag.displayBounds)
         try await budget.run(maximum: timeout, repeating: 2) { allowance in
             try await scrombleEvent(
                 releaseEvent,
