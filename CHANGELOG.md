@@ -26,7 +26,7 @@ the items under New and Fixed.
 
 ### New
 
-- A General setting, Show Dock icon while Settings is open. Turn it off to keep Thaw out of the Dock entirely, including the Dock's recent apps.
+- A General setting, Show Dock icon while Settings is open. Turn it off to keep Thaw out of the Dock and its recent apps when you open Settings and its other windows.
 
 ## [2.1.0] - 2026-10-14
 **macOS 26 only**

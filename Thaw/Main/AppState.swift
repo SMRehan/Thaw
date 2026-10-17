@@ -94,10 +94,12 @@ final class AppState {
     var explicitUIWantsRegularActivation: Bool {
         // With the Dock icon turned off for these surfaces they stay accessory,
         // so they have no claim on regular activation.
-        guard settings.general.showDockIconWithSettings else {
-            return false
-        }
-        return navigationState.isSettingsPresented
+        settings.general.showDockIconWithSettings && isUserWindowPresented
+    }
+
+    /// Whether settings, permissions, search, or the Thaw Bar is up.
+    private var isUserWindowPresented: Bool {
+        navigationState.isSettingsPresented
             || navigationState.isSearchPresented
             || navigationState.isIceBarPresented
             || openWindows.contains(.settings)
@@ -473,6 +475,28 @@ final class AppState {
         showDockIconWithSettings: Bool
     ) -> NSApplication.ActivationPolicy? {
         showDockIconWithSettings ? .regular : nil
+    }
+
+    /// The policy to switch to when "Show Dock icon while Settings is open"
+    /// changes while one of those windows is already up.
+    static nonisolated func activationPolicyForOpenUserWindows(
+        showDockIconWithSettings: Bool
+    ) -> NSApplication.ActivationPolicy {
+        showDockIconWithSettings ? .regular : .accessory
+    }
+
+    /// Applies a change to "Show Dock icon while Settings is open" to the
+    /// windows that are already up, rather than only to the next one opened.
+    /// Does nothing when none of them is up.
+    func applyUserWindowActivationPolicy() {
+        guard isUserWindowPresented else {
+            return
+        }
+        activate(
+            withPolicy: Self.activationPolicyForOpenUserWindows(
+                showDockIconWithSettings: settings.general.showDockIconWithSettings
+            )
+        )
     }
 
     /// Whether setup briefly switches to `.regular` to warm up activation.

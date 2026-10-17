@@ -48,12 +48,14 @@ final class GeneralSettings {
 
     /// A Boolean value that indicates whether Settings, Permissions and other
     /// windows the user opens switch Thaw to a regular app with a Dock icon.
-    /// When `false`, Thaw stays an accessory app, so it never appears in the
-    /// Dock or in the Dock's recent apps.
+    /// When `false`, those windows leave Thaw an accessory app, so opening them
+    /// doesn't add it to the Dock or the Dock's recent apps. Hiding the app
+    /// menus still uses regular activation and can show the Dock icon.
     var showDockIconWithSettings = Defaults.DefaultValue.showDockIconWithSettings {
         didSet {
             guard oldValue != showDockIconWithSettings else { return }
             Defaults.set(showDockIconWithSettings, forKey: .showDockIconWithSettings)
+            appState?.applyUserWindowActivationPolicy()
         }
     }
 

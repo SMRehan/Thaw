@@ -27,6 +27,14 @@ struct UserWindowActivationTests {
         #expect(AppState.activationPolicyForUserWindow(showDockIconWithSettings: false) == nil)
     }
 
+    /// Toggling the setting while Settings is open switches the policy right
+    /// away instead of waiting for the next window.
+    @Test("Changing the setting with a window open picks the matching policy")
+    func openWindowPolicyFollowsTheSetting() {
+        #expect(AppState.activationPolicyForOpenUserWindows(showDockIconWithSettings: true) == .regular)
+        #expect(AppState.activationPolicyForOpenUserWindows(showDockIconWithSettings: false) == .accessory)
+    }
+
     @Test("The launch warm-up runs only when Thaw may become regular")
     func warmUpFollowsTheSetting() {
         #expect(AppState.warmsUpActivationPolicy(showDockIconWithSettings: true))
