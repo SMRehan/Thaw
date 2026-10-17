@@ -118,7 +118,8 @@ extension MenuBarItemManager {
     /// section. A separate Task, because the discarding pass still holds
     /// cacheGate. Only one runs at a time: a later request while it runs is
     /// merged into its flags (see ``MidTransitionRetryFlags``) instead of
-    /// starting a second loop, and every attempt reads the merged flags.
+    /// starting a second loop, every attempt takes the merged flags, and a
+    /// request that lands after the last attempt starts a new retry.
     func scheduleCacheRetryAfterMidTransitionSkip(
         suppressAutomaticMoves: Bool,
         suppressSavedOrderPersistence: Bool
@@ -132,8 +133,14 @@ extension MenuBarItemManager {
             return
         }
         midTransitionRetryTask = Task { [weak self] in
+            // Each attempt takes the requests merged so far, so a requirement
+            // is never dropped between attempts.
+            var flags = request
             await self?.refreshCacheUntilCycleCompletes {
-                let flags = self?.midTransitionRetryFlags ?? request
+                if let pending = self?.midTransitionRetryFlags {
+                    flags = flags.merged(with: pending)
+                    self?.midTransitionRetryFlags = nil
+                }
                 return CacheOptions(
                     skipRecentMoveCheck: true,
                     skipSavedLayoutApply: true,
@@ -142,7 +149,15 @@ extension MenuBarItemManager {
                 )
             }
             self?.midTransitionRetryTask = nil
-            self?.midTransitionRetryFlags = nil
+            // A request that arrived after the last attempt took its flags
+            // still needs a pass of its own.
+            if let late = self?.midTransitionRetryFlags {
+                self?.midTransitionRetryFlags = nil
+                self?.scheduleCacheRetryAfterMidTransitionSkip(
+                    suppressAutomaticMoves: late.suppressAutomaticMoves,
+                    suppressSavedOrderPersistence: late.suppressSavedOrderPersistence
+                )
+            }
         }
     }
 
