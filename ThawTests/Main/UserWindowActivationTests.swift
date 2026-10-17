@@ -35,6 +35,16 @@ struct UserWindowActivationTests {
         #expect(AppState.activationPolicyForOpenUserWindows(showDockIconWithSettings: false) == .accessory)
     }
 
+    /// Read before General settings load: on the missing-permissions path the
+    /// model still holds its default, so a stored opt-out has to come from here.
+    @Test("The stored preference wins, and an unwritten one reads as the default")
+    func storedPreferenceIsRead() {
+        #expect(!AppState.showDockIconWithSettings(storedValue: false))
+        #expect(AppState.showDockIconWithSettings(storedValue: true))
+        #expect(AppState.showDockIconWithSettings(storedValue: nil) == Defaults.DefaultValue.showDockIconWithSettings)
+        #expect(AppState.showDockIconWithSettings(storedValue: "not a bool") == Defaults.DefaultValue.showDockIconWithSettings)
+    }
+
     @Test("The launch warm-up runs only when Thaw may become regular")
     func warmUpFollowsTheSetting() {
         #expect(AppState.warmsUpActivationPolicy(showDockIconWithSettings: true))

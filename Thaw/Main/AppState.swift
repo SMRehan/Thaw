@@ -94,7 +94,7 @@ final class AppState {
     var explicitUIWantsRegularActivation: Bool {
         // With the Dock icon turned off for these surfaces they stay accessory,
         // so they have no claim on regular activation.
-        settings.general.showDockIconWithSettings && isUserWindowPresented
+        showsDockIconWithUserWindows && isUserWindowPresented
     }
 
     /// Whether settings, permissions, search, or the Thaw Bar is up.
@@ -229,7 +229,7 @@ final class AppState {
                 // stays accessory: even 50 ms as a regular app puts it in the
                 // Dock's recent apps.
                 if Self.warmsUpActivationPolicy(
-                    showDockIconWithSettings: settings.general.showDockIconWithSettings
+                    showDockIconWithSettings: showsDockIconWithUserWindows
                 ) {
                     NSApp.setActivationPolicy(.regular)
                     try? await Task.sleep(for: .milliseconds(50))
@@ -492,11 +492,34 @@ final class AppState {
         guard isUserWindowPresented else {
             return
         }
-        activate(
-            withPolicy: Self.activationPolicyForOpenUserWindows(
-                showDockIconWithSettings: settings.general.showDockIconWithSettings
-            )
+        let policy = Self.activationPolicyForOpenUserWindows(
+            showDockIconWithSettings: showsDockIconWithUserWindows
         )
+        // A settings URI can change the option while Settings sits behind
+        // another app; activating then would take focus from that app.
+        guard NSApp.isActive else {
+            if policy == .regular {
+                menuBarManager.invalidatePendingAccessoryActivation()
+            }
+            NSApp.setActivationPolicy(policy)
+            return
+        }
+        activate(withPolicy: policy)
+    }
+
+    /// The "Show Dock icon while Settings is open" preference as stored.
+    ///
+    /// Read from Defaults rather than the General settings model, which loads
+    /// stored values only in setupTask. The missing-permissions path opens its
+    /// window without running that task, so the model still holds its default.
+    /// Every change through the model or a settings URI writes Defaults.
+    private var showsDockIconWithUserWindows: Bool {
+        Self.showDockIconWithSettings(storedValue: Defaults.object(forKey: .showDockIconWithSettings))
+    }
+
+    /// The stored preference, or its shipped default when it was never written.
+    static nonisolated func showDockIconWithSettings(storedValue: Any?) -> Bool {
+        (storedValue as? Bool) ?? Defaults.DefaultValue.showDockIconWithSettings
     }
 
     /// Whether setup briefly switches to `.regular` to warm up activation.
@@ -511,7 +534,7 @@ final class AppState {
     ///   app stays accessory. A regular activation already does that.
     func activateForUserWindow(bringingToFront id: IceWindowIdentifier? = nil) {
         let policy = Self.activationPolicyForUserWindow(
-            showDockIconWithSettings: settings.general.showDockIconWithSettings
+            showDockIconWithSettings: showsDockIconWithUserWindows
         )
         activate(withPolicy: policy)
         guard policy == nil, let id else {
