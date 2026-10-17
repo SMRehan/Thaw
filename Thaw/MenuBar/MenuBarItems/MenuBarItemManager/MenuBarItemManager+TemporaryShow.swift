@@ -929,10 +929,19 @@ extension MenuBarItemManager {
                 """
             )
             temporarilyShownItemContexts.append(contentsOf: failedContexts.reversed())
-            if !force || deferredBehindHiddenMenuBar {
+            if Self.rearmsRehideTimer(force: force, deferredBehindHiddenMenuBar: deferredBehindHiddenMenuBar) {
                 runRehideTimer(for: 3)
             }
         }
+    }
+
+    /// Whether a rehide pass that left items queued re-arms the retry timer.
+    ///
+    /// A forced rehide normally leaves that to its caller, but temporarilyShow
+    /// cancels the timer and can return before arming it, so an item deferred
+    /// for a hidden menu bar always gets the timer.
+    static nonisolated func rearmsRehideTimer(force: Bool, deferredBehindHiddenMenuBar: Bool) -> Bool {
+        !force || deferredBehindHiddenMenuBar
     }
 
     /// How far above a display's top edge an auto-hidden menu bar can sit,

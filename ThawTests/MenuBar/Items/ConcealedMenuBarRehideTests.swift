@@ -83,4 +83,24 @@ struct ConcealedMenuBarRehideTests {
             displayBounds: display
         ))
     }
+
+    // MARK: Retry timer
+
+    /// temporarilyShow cancels the timer before its forced rehide and can
+    /// return before arming it again, so a deferred item needs the timer here.
+    @Test("A forced rehide that deferred an item re-arms the timer")
+    func forcedDeferralRearmsTimer() {
+        #expect(MenuBarItemManager.rearmsRehideTimer(force: true, deferredBehindHiddenMenuBar: true))
+    }
+
+    @Test("A forced rehide with ordinary failures leaves the timer to its caller")
+    func forcedFailureLeavesTimerToCaller() {
+        #expect(!MenuBarItemManager.rearmsRehideTimer(force: true, deferredBehindHiddenMenuBar: false))
+    }
+
+    @Test("An unforced rehide always re-arms the timer for queued items")
+    func unforcedRehideRearmsTimer() {
+        #expect(MenuBarItemManager.rearmsRehideTimer(force: false, deferredBehindHiddenMenuBar: false))
+        #expect(MenuBarItemManager.rearmsRehideTimer(force: false, deferredBehindHiddenMenuBar: true))
+    }
 }
