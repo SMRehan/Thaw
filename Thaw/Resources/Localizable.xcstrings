@@ -130,8 +130,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove from group"
+            "state" : "translated",
+            "value" : "Aus der Gruppe entfernen"
           }
         },
         "es" : {
@@ -148,8 +148,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove from group"
+            "state" : "translated",
+            "value" : "Eltávolítás a csoportból"
           }
         },
         "id" : {
@@ -232,8 +232,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove from group"
+            "state" : "translated",
+            "value" : "從群組移除"
           }
         }
       }
@@ -248,8 +248,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reference captured"
+            "state" : "translated",
+            "value" : "Referenz erfasst"
           }
         },
         "es" : {
@@ -350,8 +350,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reference captured"
+            "state" : "translated",
+            "value" : "已擷取參考圖"
           }
         }
       }
@@ -603,8 +603,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Relaunch Now"
+            "state" : "translated",
+            "value" : "Jetzt neu starten"
           }
         },
         "es" : {
@@ -621,8 +621,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Relaunch Now"
+            "state" : "translated",
+            "value" : "Újraindítás most"
           }
         },
         "id" : {
@@ -705,8 +705,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Relaunch Now"
+            "state" : "translated",
+            "value" : "立即重新啟動"
           }
         }
       }
@@ -722,8 +722,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove"
+            "state" : "translated",
+            "value" : "Entfernen"
           }
         },
         "es" : {
@@ -740,8 +740,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove"
+            "state" : "translated",
+            "value" : "Eltávolítás"
           }
         },
         "id" : {
@@ -824,8 +824,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove"
+            "state" : "translated",
+            "value" : "移除"
           }
         }
       }
@@ -959,8 +959,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove All"
+            "state" : "translated",
+            "value" : "Alles Entfernen"
           }
         },
         "es" : {
@@ -977,8 +977,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove All"
+            "state" : "translated",
+            "value" : "Összes eltávolítása"
           }
         },
         "id" : {
@@ -1061,8 +1061,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove All"
+            "state" : "translated",
+            "value" : "全部移除"
           }
         }
       }
@@ -1196,7 +1196,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Radius"
           }
         },
@@ -1214,8 +1214,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Radius"
+            "state" : "translated",
+            "value" : "Lekerekítettség"
           }
         },
         "id" : {
@@ -1298,8 +1298,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Radius"
+            "state" : "translated",
+            "value" : "半徑"
           }
         }
       }
@@ -1314,8 +1314,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove Override for This Space"
+            "state" : "translated",
+            "value" : "Überschreibung für diesen Bereich aufheben"
           }
         },
         "es" : {
@@ -1416,8 +1416,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove Override for This Space"
+            "state" : "translated",
+            "value" : "移除此 Space 的覆寫"
           }
         }
       }
@@ -1432,8 +1432,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove this condition"
+            "state" : "translated",
+            "value" : "Diese Bedingung entfernen"
           }
         },
         "es" : {
@@ -1450,8 +1450,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove this condition"
+            "state" : "translated",
+            "value" : "Feltétel eltávolítása"
           }
         },
         "id" : {
@@ -1534,8 +1534,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove this condition"
+            "state" : "translated",
+            "value" : "移除此條件"
           }
         }
       }
@@ -1550,8 +1550,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove this spacer"
+            "state" : "translated",
+            "value" : "Diesen Abstandhalter entfernen"
           }
         },
         "es" : {
@@ -1568,8 +1568,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove this spacer"
+            "state" : "translated",
+            "value" : "Térköz eltávolítása"
           }
         },
         "id" : {
@@ -1652,8 +1652,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Remove this spacer"
+            "state" : "translated",
+            "value" : "移除此間隔"
           }
         }
       }
@@ -1788,8 +1788,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Replay onboarding"
+            "state" : "translated",
+            "value" : "Onboarding wiederholen"
           }
         },
         "es" : {
@@ -1890,8 +1890,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Replay onboarding"
+            "state" : "translated",
+            "value" : "重新播放新手導覽"
           }
         }
       }
@@ -1906,8 +1906,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Replay Onboarding"
+            "state" : "translated",
+            "value" : "Onboarding wiederholen"
           }
         },
         "es" : {
@@ -2008,8 +2008,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Replay Onboarding"
+            "state" : "translated",
+            "value" : "重新播放新手導覽"
           }
         }
       }
@@ -2381,8 +2381,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit the menu bar host and delete its saved item positions, so the menu bar arrangement rebuilds from scratch. Use this when items refuse to return to the menu bar after rearranging."
+            "state" : "translated",
+            "value" : "Den Menüleisten-Host beenden und die gespeicherten Positionen der Menüpunkte löschen, damit die Anordnung der Menüleiste von Grund auf neu erstellt wird. Diese Option sollte verwendet werden, wenn Menüpunkte nach einer Neuanordnung nicht wieder in die Menüleiste zurückkehren."
           }
         },
         "es" : {
@@ -2483,8 +2483,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit the menu bar host and delete its saved item positions, so the menu bar arrangement rebuilds from scratch. Use this when items refuse to return to the menu bar after rearranging."
+            "state" : "translated",
+            "value" : "結束選單列宿主程序並刪除其儲存的項目位置，讓選單列的排列從頭重建。當項目在重新排列後無法回到選單列時，請使用此工具。"
           }
         }
       }
@@ -2738,8 +2738,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Per-Space Profiles"
+            "state" : "translated",
+            "value" : "Profile pro Raum"
           }
         },
         "es" : {
@@ -2840,8 +2840,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Per-Space Profiles"
+            "state" : "translated",
+            "value" : "個別 Space 設定檔"
           }
         }
       }
@@ -3094,8 +3094,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Permissions cleared. Quitting…"
+            "state" : "translated",
+            "value" : "Berechtigungen wurden gelöscht. Beende das Programm…"
           }
         },
         "es" : {
@@ -3196,8 +3196,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Permissions cleared. Quitting…"
+            "state" : "translated",
+            "value" : "權限已清除。正在結束⋯"
           }
         }
       }
@@ -3212,8 +3212,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pick two items below to group them. Grouped items always move together."
+            "state" : "translated",
+            "value" : "Wähle zwei der unten aufgeführten Elemente aus, um sie zu gruppieren. Gruppierte Elemente werden immer gemeinsam verschoben."
           }
         },
         "es" : {
@@ -3314,8 +3314,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pick two items below to group them. Grouped items always move together."
+            "state" : "translated",
+            "value" : "在下方選擇兩個項目以建立群組。群組中的項目一律一起移動。"
           }
         }
       }
@@ -3805,8 +3805,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit Control Center and delete its preference files so system menu bar item state can rebuild."
+            "state" : "translated",
+            "value" : "Das Kontrollzentrum beenden und dessen Einstellungsdateien löschen, damit der Status des Eintrags in der Systemmenüleiste neu aufgebaut werden kann."
           }
         },
         "es" : {
@@ -3907,8 +3907,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit Control Center and delete its preference files so system menu bar item state can rebuild."
+            "state" : "translated",
+            "value" : "結束控制中心並刪除其偏好設定檔案，讓系統選單列項目的狀態得以重建。"
           }
         }
       }
@@ -4400,8 +4400,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit & Clear Cache"
+            "state" : "translated",
+            "value" : "Beenden & Cache leeren"
           }
         },
         "es" : {
@@ -4418,8 +4418,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit & Clear Cache"
+            "state" : "translated",
+            "value" : "Kilépés és a gyorsítótár ürítése"
           }
         },
         "id" : {
@@ -4502,8 +4502,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit & Clear Cache"
+            "state" : "translated",
+            "value" : "結束並清除快取"
           }
         }
       }
@@ -4638,8 +4638,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit and clear cache"
+            "state" : "translated",
+            "value" : "Beenden und Cache leeren"
           }
         },
         "es" : {
@@ -4656,8 +4656,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit and clear cache"
+            "state" : "translated",
+            "value" : "Kilépés és a gyorsítótár ürítése"
           }
         },
         "id" : {
@@ -4740,8 +4740,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit and clear cache"
+            "state" : "translated",
+            "value" : "結束並清除快取"
           }
         }
       }
@@ -4756,8 +4756,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit and clear cache?"
+            "state" : "translated",
+            "value" : "Beenden und Cache leeren?"
           }
         },
         "es" : {
@@ -4774,8 +4774,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit and clear cache?"
+            "state" : "translated",
+            "value" : "Kilépés és a gyorsítótár ürítése?"
           }
         },
         "id" : {
@@ -4858,8 +4858,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Quit and clear cache?"
+            "state" : "translated",
+            "value" : "結束並清除快取？"
           }
         }
       }
@@ -5827,8 +5827,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rotate by time"
+            "state" : "translated",
+            "value" : "Nach Zeit drehen"
           }
         },
         "es" : {
@@ -5929,8 +5929,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rotate by time"
+            "state" : "translated",
+            "value" : "依時間輪替"
           }
         }
       }
@@ -6065,8 +6065,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rounded corners"
+            "state" : "translated",
+            "value" : "Abgerundete Ecken"
           }
         },
         "es" : {
@@ -6083,8 +6083,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rounded corners"
+            "state" : "translated",
+            "value" : "Lekerekített sarkok"
           }
         },
         "id" : {
@@ -6167,8 +6167,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rounded corners"
+            "state" : "translated",
+            "value" : "圓角"
           }
         }
       }
@@ -6183,8 +6183,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Runs your script about every 30 seconds. Reveals when it exits 0, or — if an expected output is set — when its output contains that text."
+            "state" : "translated",
+            "value" : "Führt dein Skript etwa alle 30 Sekunden aus. Zeigt an, wenn es mit dem Status 0 beendet wird oder – falls eine erwartete Ausgabe festgelegt ist – wenn die Ausgabe diesen Text enthält."
           }
         },
         "es" : {
@@ -6285,8 +6285,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Runs your script about every 30 seconds. Reveals when it exits 0, or — if an expected output is set — when its output contains that text."
+            "state" : "translated",
+            "value" : "大約每 30 秒執行一次您的指令碼。當指令碼以 0 結束時顯示項目；若有設定預期輸出，則在其輸出包含該文字時顯示。"
           }
         }
       }
@@ -6302,8 +6302,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reveals the item while its icon is blinking. A clock or a battery percentage will not trigger this: they always move to a state they have never shown before, while a blink keeps returning to one. Requires screen recording permission."
+            "state" : "translated",
+            "value" : "Zeigt das Element an, während sein Symbol blinkt. Eine Uhr oder ein Akkustand lösen dies nicht aus: Sie wechseln immer in einen Zustand, den sie zuvor noch nie angezeigt haben, während ein Blinken immer wieder zum ursprünglichen Zustand zurückkehrt. Erfordert die Berechtigung zur Bildschirmaufzeichnung."
           }
         },
         "es" : {
@@ -6404,8 +6404,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reveals the item while its icon is blinking. A clock or a battery percentage will not trigger this: they always move to a state they have never shown before, while a blink keeps returning to one. Requires screen recording permission."
+            "state" : "translated",
+            "value" : "在項目的圖示閃爍期間顯示該項目。時鐘或電池百分比不會觸發此條件：它們總是變成從未顯示過的新狀態，而閃爍則會不斷回到同一個狀態。需要螢幕錄製權限。"
           }
         }
       }
@@ -6539,8 +6539,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Safe vs maintenance tools"
+            "state" : "translated",
+            "value" : "Sicherheits- oder Wartungswerkzeuge"
           }
         },
         "es" : {
@@ -6641,8 +6641,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Safe vs maintenance tools"
+            "state" : "translated",
+            "value" : "安全工具與維護工具"
           }
         }
       }
@@ -6894,8 +6894,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Save Diagnostic Report"
+            "state" : "translated",
+            "value" : "Diagnosebericht speichern"
           }
         },
         "es" : {
@@ -6912,8 +6912,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Save Diagnostic Report"
+            "state" : "translated",
+            "value" : "Diagnosztika jelentés mentése"
           }
         },
         "id" : {
@@ -6996,8 +6996,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Save Diagnostic Report"
+            "state" : "translated",
+            "value" : "儲存診斷報告"
           }
         }
       }
@@ -7012,8 +7012,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Save Diagnostic Report…"
+            "state" : "translated",
+            "value" : "Diagnosebericht speichern..."
           }
         },
         "es" : {
@@ -7030,8 +7030,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Save Diagnostic Report…"
+            "state" : "translated",
+            "value" : "Diagnosztika jelentés mentése..."
           }
         },
         "id" : {
@@ -7114,8 +7114,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Save Diagnostic Report…"
+            "state" : "translated",
+            "value" : "儲存診斷報告⋯"
           }
         }
       }
@@ -7368,8 +7368,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Review the feature tour and permission setup again."
+            "state" : "translated",
+            "value" : "Funktionsübersicht und die Berechtigungseinstellungen noch einmal an anzeigen."
           }
         },
         "es" : {
@@ -7470,8 +7470,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Review the feature tour and permission setup again."
+            "state" : "translated",
+            "value" : "再次檢視功能導覽與權限設定。"
           }
         }
       }
@@ -7486,8 +7486,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reveal hidden items through the Thaw Bar while overflow has items ejected. The visible row has no room left beside the notch at that point, so expanding the hidden section inline cannot show them. Disable to always follow the per-display Thaw Bar setting."
+            "state" : "translated",
+            "value" : "Über die Thaw Leiste werden versteckte Elemente angezeigt, während bei einem Überlauf Elemente ausgeblendet werden. In der sichtbaren Zeile ist an dieser Stelle neben der Kerbe kein Platz mehr vorhanden, sodass eine Erweiterung des versteckten Bereichs diese Elemente nicht anzeigen kann. Deaktiviere diese Option, um stets der Einstellung der Thaw Leiste pro Anzeige zu folgen."
           }
         },
         "es" : {
@@ -8080,8 +8080,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Control Center"
+            "state" : "translated",
+            "value" : "Kontrollzentrum zurücksetzen"
           }
         },
         "es" : {
@@ -8182,8 +8182,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Control Center"
+            "state" : "translated",
+            "value" : "重置控制中心"
           }
         }
       }
@@ -8198,8 +8198,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Control Center preferences"
+            "state" : "translated",
+            "value" : "Einstellungen des Kontrollzentrums zurücksetzen"
           }
         },
         "es" : {
@@ -8300,8 +8300,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Control Center preferences"
+            "state" : "translated",
+            "value" : "重置控制中心偏好設定"
           }
         }
       }
@@ -8316,8 +8316,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Control Center preferences?"
+            "state" : "translated",
+            "value" : "Einstellungen des Kontrollzentrums zurücksetzen?"
           }
         },
         "es" : {
@@ -8418,8 +8418,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Control Center preferences?"
+            "state" : "translated",
+            "value" : "重置控制中心偏好設定？"
           }
         }
       }
@@ -8553,8 +8553,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Layout Positions"
+            "state" : "translated",
+            "value" : "Layout-Positionen zurücksetzen"
           }
         },
         "es" : {
@@ -8655,8 +8655,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Layout Positions"
+            "state" : "translated",
+            "value" : "重置佈局位置"
           }
         }
       }
@@ -8908,8 +8908,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Restore %@ preferences to their defaults. Saved profiles and user data are not deleted. This cannot be undone."
+            "state" : "translated",
+            "value" : "Die Einstellungen von %@ werden auf die Standardwerte zurückgesetzt. Gespeicherte Profile und Benutzerdaten werden nicht gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden."
           }
         },
         "es" : {
@@ -9010,8 +9010,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Restore %@ preferences to their defaults. Saved profiles and user data are not deleted. This cannot be undone."
+            "state" : "translated",
+            "value" : "將 %@ 的偏好設定回復為預設值。已儲存的設定檔與使用者資料不會被刪除。此操作無法復原。"
           }
         }
       }
@@ -9026,8 +9026,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset menu bar layout positions"
+            "state" : "translated",
+            "value" : "Positionen der Menüleiste zurücksetzen"
           }
         },
         "es" : {
@@ -9128,8 +9128,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset menu bar layout positions"
+            "state" : "translated",
+            "value" : "重置選單列佈局位置"
           }
         }
       }
@@ -9144,8 +9144,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset menu bar layout positions?"
+            "state" : "translated",
+            "value" : "Positionen der Menüleiste zurücksetzen?"
           }
         },
         "es" : {
@@ -9246,8 +9246,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset menu bar layout positions?"
+            "state" : "translated",
+            "value" : "重置選單列佈局位置？"
           }
         }
       }
@@ -9262,8 +9262,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset permissions"
+            "state" : "translated",
+            "value" : "Berechtigungen zurücksetzen"
           }
         },
         "es" : {
@@ -9280,8 +9280,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset permissions"
+            "state" : "translated",
+            "value" : "Jogosultságok alaphelyzetbe állítása"
           }
         },
         "id" : {
@@ -9364,8 +9364,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset permissions"
+            "state" : "translated",
+            "value" : "重置權限"
           }
         }
       }
@@ -9380,8 +9380,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Permissions"
+            "state" : "translated",
+            "value" : "Berechtigungen zurücksetzen"
           }
         },
         "es" : {
@@ -9398,8 +9398,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Permissions"
+            "state" : "translated",
+            "value" : "Jogosultságok alaphelyzetbe állítása"
           }
         },
         "id" : {
@@ -9482,8 +9482,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset Permissions"
+            "state" : "translated",
+            "value" : "重置權限"
           }
         }
       }
@@ -9498,8 +9498,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset permissions?"
+            "state" : "translated",
+            "value" : "Berechtigungen zurücksetzen?"
           }
         },
         "es" : {
@@ -9516,8 +9516,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset permissions?"
+            "state" : "translated",
+            "value" : "Jogosultságok alaphelyzetbe állítása?"
           }
         },
         "id" : {
@@ -9600,8 +9600,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reset permissions?"
+            "state" : "translated",
+            "value" : "重置權限？"
           }
         }
       }
@@ -9735,8 +9735,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Resets dividers and moves every movable item except the %@ icon to the selected section."
+            "state" : "translated",
+            "value" : "Setzt die Trennlinien zurück und verschiebt alle verschiebbaren Elemente mit Ausnahme des %@-Symbols in den ausgewählten Abschnitt."
           }
         },
         "es" : {
@@ -9972,8 +9972,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Per-Space override"
+            "state" : "translated",
+            "value" : "Überschreibung pro Bereich"
           }
         },
         "es" : {
@@ -10074,8 +10074,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Per-Space override"
+            "state" : "translated",
+            "value" : "個別 Space 覆寫"
           }
         }
       }
@@ -10090,8 +10090,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Per display"
+            "state" : "translated",
+            "value" : "Pro Display"
           }
         },
         "es" : {
@@ -10192,8 +10192,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Per display"
+            "state" : "translated",
+            "value" : "個別顯示器"
           }
         }
       }
@@ -10208,8 +10208,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Saves the appearance above for the currently active Space only. Every other Space keeps the shared appearance."
+            "state" : "translated",
+            "value" : "Speichert das oben angezeigte Erscheinungsbild ausschließlich für den derzeit aktiven Bereich. Alle anderen Bereiche behalten das gemeinsame Erscheinungsbild bei."
           }
         },
         "es" : {
@@ -10310,8 +10310,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Saves the appearance above for the currently active Space only. Every other Space keeps the shared appearance."
+            "state" : "translated",
+            "value" : "只為目前使用中的 Space 儲存上方的外觀。其他所有 Space 維持共用外觀。"
           }
         }
       }
@@ -11512,8 +11512,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Move trigger down"
+            "state" : "translated",
+            "value" : "Auslöser nach unten verschieben"
           }
         },
         "es" : {
@@ -11614,8 +11614,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Move trigger down"
+            "state" : "translated",
+            "value" : "下移觸發條件"
           }
         }
       }
@@ -11630,8 +11630,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Move trigger up"
+            "state" : "translated",
+            "value" : "Auslöser nach oben verschieben"
           }
         },
         "es" : {
@@ -11732,8 +11732,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Move trigger up"
+            "state" : "translated",
+            "value" : "上移觸發條件"
           }
         }
       }
@@ -12224,8 +12224,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No display found."
+            "state" : "translated",
+            "value" : "Kein Display gefunden."
           }
         },
         "es" : {
@@ -12242,8 +12242,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No display found."
+            "state" : "translated",
+            "value" : "Kijelző nem található"
           }
         },
         "id" : {
@@ -12326,8 +12326,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No display found."
+            "state" : "translated",
+            "value" : "找不到顯示器。"
           }
         }
       }
@@ -12579,8 +12579,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mode"
+            "state" : "translated",
+            "value" : "Modus"
           }
         },
         "es" : {
@@ -12597,8 +12597,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mode"
+            "state" : "translated",
+            "value" : "Üzemmód"
           }
         },
         "id" : {
@@ -12681,8 +12681,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Mode"
+            "state" : "translated",
+            "value" : "模式 "
           }
         }
       }
@@ -13527,8 +13527,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar item"
+            "state" : "translated",
+            "value" : "Menüleistenelement"
           }
         },
         "es" : {
@@ -13629,8 +13629,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar item"
+            "state" : "translated",
+            "value" : "選單列項目"
           }
         }
       }
@@ -14122,8 +14122,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar items are rehidden using a smart algorithm, or after the interval below."
+            "state" : "translated",
+            "value" : "Menüleistenelemente werden mithilfe eines intelligenten Algorithmus oder nach Ablauf des unten angegebenen Zeitraums wieder ausgeblendet."
           }
         },
         "en" : {
@@ -14194,8 +14194,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar items are rehidden using a smart algorithm, or after the interval below."
+            "state" : "translated",
+            "value" : "Элементы строки меню снова скрываются с помощью интеллектуального алгоритма или по истечении указанного ниже интервала."
           }
         },
         "th" : {
@@ -14224,14 +14224,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar items are rehidden using a smart algorithm, or after the interval below."
+            "state" : "translated",
+            "value" : "菜单栏项目将通过智能算法重新隐藏，或在下方指定的时间间隔后隐藏。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar items are rehidden using a smart algorithm, or after the interval below."
+            "state" : "translated",
+            "value" : "選單列項目會依智慧演算法重新隱藏，或在下方設定的間隔後重新隱藏。"
           }
         }
       }
@@ -14365,8 +14365,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar layout positions were reset."
+            "state" : "translated",
+            "value" : "Die Positionen der Menüleistenelemente wurden zurückgesetzt."
           }
         },
         "es" : {
@@ -14467,8 +14467,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Menu bar layout positions were reset."
+            "state" : "translated",
+            "value" : "選單列佈局位置已重置。"
           }
         }
       }
@@ -15077,8 +15077,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No location captured"
+            "state" : "translated",
+            "value" : "Kein Standort erfasst"
           }
         },
         "es" : {
@@ -15179,8 +15179,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No location captured"
+            "state" : "translated",
+            "value" : "尚未取得位置"
           }
         }
       }
@@ -16546,8 +16546,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Onboarding"
+            "state" : "translated",
+            "value" : "Einführung"
           }
         },
         "es" : {
@@ -16648,8 +16648,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Onboarding"
+            "state" : "translated",
+            "value" : "新手導覽"
           }
         }
       }
@@ -17139,8 +17139,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Other…"
+            "state" : "translated",
+            "value" : "Sonstiges…"
           }
         },
         "es" : {
@@ -17157,8 +17157,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Other…"
+            "state" : "translated",
+            "value" : "Egyéb..."
           }
         },
         "id" : {
@@ -17241,8 +17241,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Other…"
+            "state" : "translated",
+            "value" : "其他⋯"
           }
         }
       }
@@ -17257,8 +17257,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Otherwise hide in"
+            "state" : "translated",
+            "value" : "Andernfalls verstecken in"
           }
         },
         "es" : {
@@ -17359,8 +17359,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Otherwise hide in"
+            "state" : "translated",
+            "value" : "否則隱藏於"
           }
         }
       }
@@ -17375,8 +17375,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Overridden by %@. Move this trigger above them to give it priority."
+            "state" : "translated",
+            "value" : "Wird von %@ überschrieben. Verschiebe diesen Trigger nach oben, um ihm Vorrang zu geben."
           }
         },
         "es" : {
@@ -17477,8 +17477,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Overridden by %@. Move this trigger above them to give it priority."
+            "state" : "translated",
+            "value" : "已被 %@ 覆寫。將此觸發條件移到它們上方以取得優先權。"
           }
         }
       }
@@ -18218,8 +18218,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No reference yet"
+            "state" : "translated",
+            "value" : "Noch keine Referenz"
           }
         },
         "es" : {
@@ -18320,8 +18320,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No reference yet"
+            "state" : "translated",
+            "value" : "尚無參考圖"
           }
         }
       }
@@ -18573,8 +18573,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No triggers yet"
+            "state" : "translated",
+            "value" : "Noch kein Auslöser"
           }
         },
         "es" : {
@@ -18675,8 +18675,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No triggers yet"
+            "state" : "translated",
+            "value" : "尚無觸發條件"
           }
         }
       }
@@ -19643,8 +19643,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "not running"
+            "state" : "translated",
+            "value" : "Funktioniert nicht"
           }
         },
         "es" : {
@@ -19745,8 +19745,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "not running"
+            "state" : "translated",
+            "value" : "未執行"
           }
         }
       }
@@ -19999,8 +19999,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Nothing shown here is saved or sent anywhere; the capture exists only while this page is open."
+            "state" : "translated",
+            "value" : "Die hier angezeigten Inhalte werden weder gespeichert noch an Dritte übermittelt; die Anzeige besteht nur, solange diese Seite geöffnet ist."
           }
         },
         "es" : {
@@ -20101,8 +20101,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Nothing shown here is saved or sent anywhere; the capture exists only while this page is open."
+            "state" : "translated",
+            "value" : "這裡顯示的內容不會被儲存或傳送到任何地方；擷取的畫面只在此頁面開啟期間存在。"
           }
         }
       }
@@ -20117,8 +20117,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Notify when this reveals the item"
+            "state" : "translated",
+            "value" : "Benachrichtigen, wenn dadurch der Inhalt sichtbar wird"
           }
         },
         "es" : {
@@ -20219,8 +20219,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Notify when this reveals the item"
+            "state" : "translated",
+            "value" : "此觸發條件顯示項目時發出通知"
           }
         }
       }
@@ -20473,8 +20473,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Maximum log file size (MB)"
+            "state" : "translated",
+            "value" : "Maximale Größe der Protokolldatei (MB)"
           }
         },
         "es" : {
@@ -20575,8 +20575,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Maximum log file size (MB)"
+            "state" : "translated",
+            "value" : "記錄檔大小上限（MB）"
           }
         }
       }
@@ -20591,8 +20591,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger list view"
+            "state" : "translated",
+            "value" : "Listenansicht aufrufen"
           }
         },
         "es" : {
@@ -20609,8 +20609,8 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger list view"
+            "state" : "translated",
+            "value" : "Lista nézet"
           }
         },
         "id" : {
@@ -20693,8 +20693,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger list view"
+            "state" : "translated",
+            "value" : "觸發條件列表顯示方式"
           }
         }
       }
@@ -20709,8 +20709,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Toggle zen mode"
+            "state" : "translated",
+            "value" : "Zen-Modus umschalten"
           }
         },
         "es" : {
@@ -20811,8 +20811,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Toggle zen mode"
+            "state" : "translated",
+            "value" : "切換 Zen 模式"
           }
         }
       }
@@ -20827,8 +20827,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Tools"
+            "state" : "translated",
+            "value" : "Werkzeuge"
           }
         },
         "es" : {
@@ -20929,8 +20929,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Tools"
+            "state" : "translated",
+            "value" : "工具"
           }
         }
       }
@@ -21421,8 +21421,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger list"
+            "state" : "translated",
+            "value" : "Auslöseliste"
           }
         },
         "es" : {
@@ -21523,8 +21523,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger list"
+            "state" : "translated",
+            "value" : "觸發條件列表"
           }
         }
       }
@@ -21539,8 +21539,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Triggers"
+            "state" : "translated",
+            "value" : "Auslöser"
           }
         },
         "es" : {
@@ -21641,8 +21641,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Triggers"
+            "state" : "translated",
+            "value" : "觸發條件"
           }
         }
       }
@@ -21776,8 +21776,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Troubleshooting"
+            "state" : "translated",
+            "value" : "Fehlerbehebung"
           }
         },
         "es" : {
@@ -21878,8 +21878,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Troubleshooting"
+            "state" : "translated",
+            "value" : "疑難排解"
           }
         }
       }
@@ -21894,8 +21894,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn off to show every setting. Nothing you configure here is lost either way."
+            "state" : "translated",
+            "value" : "Deaktivieren Sie diese Option, um alle Einstellungen anzuzeigen. Die hier vorgenommenen Einstellungen gehen in keinem Fall verloren."
           }
         },
         "es" : {
@@ -21996,8 +21996,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn off to show every setting. Nothing you configure here is lost either way."
+            "state" : "translated",
+            "value" : "關閉後會顯示所有設定。無論開啟或關閉，您在此設定的內容都不會遺失。"
           }
         }
       }
@@ -22012,8 +22012,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on Location in Trigger Sources and grant permission to capture your current location."
+            "state" : "translated",
+            "value" : "Aktivieren Sie unter „Auslöser quellen“ die Standortfunktion und erteilen Sie die Berechtigung zur Erfassung Ihres aktuellen Standorts."
           }
         },
         "en" : {
@@ -22084,8 +22084,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on Location in Trigger Sources and grant permission to capture your current location."
+            "state" : "translated",
+            "value" : "Включите «Местоположение» в разделе «Источники триггеров» и предоставьте разрешение на определение вашего текущего местоположения."
           }
         },
         "th" : {
@@ -22114,14 +22114,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on Location in Trigger Sources and grant permission to capture your current location."
+            "state" : "translated",
+            "value" : "在触发源中开启位置功能，并授权获取您的当前位置。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on Location in Trigger Sources and grant permission to capture your current location."
+            "state" : "translated",
+            "value" : "請在「觸發來源」中開啟「位置」並授予權限，以取得您目前的位置。"
           }
         }
       }
@@ -22374,8 +22374,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Ungroup"
+            "state" : "translated",
+            "value" : "Gruppierung aufheben"
           }
         },
         "es" : {
@@ -22476,8 +22476,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Ungroup"
+            "state" : "translated",
+            "value" : "取消群組"
           }
         }
       }
@@ -22849,8 +22849,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Toggle automatic rehiding"
+            "state" : "translated",
+            "value" : "Automatisches Ausblenden umschalten"
           }
         },
         "es" : {
@@ -22951,8 +22951,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Toggle automatic rehiding"
+            "state" : "translated",
+            "value" : "切換自動重新隱藏"
           }
         }
       }
@@ -23114,14 +23114,14 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "This will overwrite the settings of %lld display with the global template. If the active display's spacing changes, Thaw will relaunch each app with a menu bar item. Relaunching apps may cause unsaved input, progress, or transient app state to be lost."
+                  "state" : "translated",
+                  "value" : "Dadurch werden die Einstellungen des %lld-Displays durch die globale Vorlage überschrieben. Wenn sich der Abstand des aktiven Displays ändert, startet Thaw jede App mit einem Menüleistenelement neu. Durch das Neustarten von Apps können nicht gespeicherte Eingaben, Fortschritte oder vorübergehende App-Zustände verloren gehen."
                 }
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "This will overwrite the settings of %lld displays with the global template. If the active display's spacing changes, Thaw will relaunch each app with a menu bar item. Relaunching apps may cause unsaved input, progress, or transient app state to be lost."
+                  "state" : "translated",
+                  "value" : "Dadurch werden die Einstellungen von %lld Bildschirmen durch die globale Vorlage überschrieben. Wenn sich der Abstand des aktiven Bildschirms ändert, startet Thaw jede App mit einem Menüleistenelement neu. Durch das Neustarten von Apps können nicht gespeicherte Eingaben, Fortschritte oder vorübergehende App-Zustände verloren gehen."
                 }
               }
             }
@@ -23438,8 +23438,8 @@
             "plural" : {
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "This will overwrite the settings of %lld displays with the global template. If the active display's spacing changes, Thaw will relaunch each app with a menu bar item. Relaunching apps may cause unsaved input, progress, or transient app state to be lost."
+                  "state" : "translated",
+                  "value" : "這會以全域模板覆寫 %lld 部顯示器的設定。若使用中顯示器的間距有變更，Thaw 會重新啟動每個有選單列項目的應用程式。重新啟動應用程式可能導致未儲存的輸入、進度或暫存狀態遺失。"
                 }
               }
             }
@@ -23576,8 +23576,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This condition is turned off in Trigger Sources, so the trigger won't run."
+            "state" : "translated",
+            "value" : "Diese Bedingung ist unter Auslösequellen deaktiviert, sodass der Auslöser nicht ausgeführt wird."
           }
         },
         "en" : {
@@ -23648,8 +23648,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This condition is turned off in Trigger Sources, so the trigger won't run."
+            "state" : "translated",
+            "value" : "Это условие отключено в разделе «Источники триггеров», поэтому триггер не сработает."
           }
         },
         "th" : {
@@ -23678,14 +23678,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This condition is turned off in Trigger Sources, so the trigger won't run."
+            "state" : "translated",
+            "value" : "此条件已在触发源中关闭，因此触发器不会运行。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This condition is turned off in Trigger Sources, so the trigger won't run."
+            "state" : "translated",
+            "value" : "此條件已在「觸發來源」中關閉，因此這個觸發條件不會執行。"
           }
         }
       }
@@ -23701,8 +23701,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This Space uses a saved override. Changes above apply to this Space only."
+            "state" : "translated",
+            "value" : "Dieser Bereich verwendet eine gespeicherte Überschreibung. Die oben genannten Änderungen gelten nur für diesen Bereich."
           }
         },
         "es" : {
@@ -23803,8 +23803,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This Space uses a saved override. Changes above apply to this Space only."
+            "state" : "translated",
+            "value" : "此 Space 使用已儲存的覆寫。上方的變更只套用於此 Space。"
           }
         }
       }
@@ -23819,8 +23819,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This Space uses the shared appearance."
+            "state" : "translated",
+            "value" : "Dieser Bereich verwendet das gemeinsame Erscheinungsbild."
           }
         },
         "es" : {
@@ -23921,8 +23921,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This Space uses the shared appearance."
+            "state" : "translated",
+            "value" : "此 Space 使用共用外觀。"
           }
         }
       }
@@ -23937,8 +23937,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This trigger controls %@'s section. Your saved layout no longer applies to it."
+            "state" : "translated",
+            "value" : "Dieser Auslöser steuert den Abschnitt von %@. Ihr gespeichertes Layout gilt hierfür nicht mehr."
           }
         },
         "es" : {
@@ -24039,8 +24039,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This trigger controls %@'s section. Your saved layout no longer applies to it."
+            "state" : "translated",
+            "value" : "此觸發條件控制 %@ 所在的區段。您儲存的佈局不再套用於它。"
           }
         }
       }
@@ -24055,8 +24055,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This trigger controls the section of %@. Your saved layout no longer applies to them."
+            "state" : "translated",
+            "value" : "Dieser Auslöser steuert den Abschnitt %@. Ihr gespeichertes Layout gilt dort nicht mehr."
           }
         },
         "es" : {
@@ -24157,8 +24157,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This trigger controls the section of %@. Your saved layout no longer applies to them."
+            "state" : "translated",
+            "value" : "此觸發條件控制 %@ 所在的區段。您儲存的佈局不再套用於它們。"
           }
         }
       }
@@ -24174,8 +24174,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, and preview builds are available on GitHub Releases."
+            "state" : "translated",
+            "value" : "Diese Version von Thaw ist noch nicht mit macOS %lld kompatibel. Die Unterstützung erfolgt über die Alpha- und Beta-Update-Kanäle, und Vorschauversionen sind auf GitHub Releases verfügbar."
           }
         },
         "es" : {
@@ -24240,8 +24240,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, and preview builds are available on GitHub Releases."
+            "state" : "translated",
+            "value" : "Эта версия Thaw пока несовместима с macOS %lld. Поддержка появится в каналах обновлений Alpha и Beta, а предварительные сборки доступны в разделе Releases на GitHub."
           }
         },
         "th" : {
@@ -24270,14 +24270,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, and preview builds are available on GitHub Releases."
+            "state" : "translated",
+            "value" : "此版本的 Thaw 尚未兼容 macOS %lld。相关支持将通过 alpha 和 beta 更新通道推出，预览版构建可在 GitHub Releases 上获取。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, and preview builds are available on GitHub Releases."
+            "state" : "translated",
+            "value" : "此版本的 Thaw 尚未相容於 macOS %lld。相關支援將透過內測版與測試版更新頻道推出，預覽版本也可在 GitHub Releases 取得。"
           }
         }
       }
@@ -24293,8 +24293,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, which carry the rewritten app. Thaw can switch you to beta updates and check for a build now. If none has been published yet, it opens the preview builds on GitHub."
+            "state" : "translated",
+            "value" : "Diese Version von Thaw ist noch nicht mit macOS %lld kompatibel. Die Unterstützung erfolgt über die Alpha- und Beta-Update-Kanäle, über die die überarbeitete App bereitgestellt wird. Thaw kann Sie auf Beta-Updates umstellen und sofort nach einem Build suchen. Falls noch kein Build veröffentlicht wurde, öffnet es die Vorschau-Builds auf GitHub."
           }
         },
         "es" : {
@@ -24359,8 +24359,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, which carry the rewritten app. Thaw can switch you to beta updates and check for a build now. If none has been published yet, it opens the preview builds on GitHub."
+            "state" : "translated",
+            "value" : "Эта версия Thaw пока несовместима с macOS %lld. Поддержка появится в каналах обновлений Alpha и Beta, в которых распространяется переработанная версия приложения. Thaw может переключить вас на бета-обновления и проверить наличие сборки. Если сборка ещё не опубликована, откроется страница предварительных сборок на GitHub."
           }
         },
         "th" : {
@@ -24389,14 +24389,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, which carry the rewritten app. Thaw can switch you to beta updates and check for a build now. If none has been published yet, it opens the preview builds on GitHub."
+            "state" : "translated",
+            "value" : "此版本的 Thaw 尚未兼容 macOS %lld。相关支持将通过 alpha 和 beta 更新通道提供，这些通道分发的是重写后的应用。Thaw 可以帮你切换到 beta 更新通道，并立即检查是否有可用的构建版本。如果尚未发布任何构建，它会打开 GitHub 上的预览版构建页面。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This version of Thaw is not yet compatible with macOS %lld. Support is coming through the alpha and beta update channels, which carry the rewritten app. Thaw can switch you to beta updates and check for a build now. If none has been published yet, it opens the preview builds on GitHub."
+            "state" : "translated",
+            "value" : "此版本的 Thaw 尚未相容於 macOS %lld。相關支援將透過內測版與測試版更新頻道推出，這些頻道提供重寫後的應用程式。Thaw 可以立即為您切換至測試版更新並檢查是否有可用版本。若尚未發布任何版本，則會開啟 GitHub 上的預覽版本。"
           }
         }
       }
@@ -24649,8 +24649,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This will reset app preferences to their default values. Saved profiles and user data will not be deleted. This action cannot be undone."
+            "state" : "translated",
+            "value" : "Dadurch werden die App-Einstellungen auf ihre Standardwerte zurückgesetzt. Gespeicherte Profile und Benutzerdaten werden nicht gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden."
           }
         },
         "es" : {
@@ -24751,8 +24751,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "This will reset app preferences to their default values. Saved profiles and user data will not be deleted. This action cannot be undone."
+            "state" : "translated",
+            "value" : "這會將應用程式的偏好設定重置為預設值。已儲存的設定檔與使用者資料不會被刪除。此操作無法復原。"
           }
         }
       }
@@ -24767,8 +24767,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Threshold"
+            "state" : "translated",
+            "value" : "Schwellenwert"
           }
         },
         "es" : {
@@ -24869,8 +24869,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Threshold"
+            "state" : "translated",
+            "value" : "閾值"
           }
         }
       }
@@ -25361,8 +25361,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "To"
+            "state" : "translated",
+            "value" : "An"
           }
         },
         "es" : {
@@ -25463,8 +25463,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "To"
+            "state" : "translated",
+            "value" : "到"
           }
         }
       }
@@ -25842,8 +25842,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The language change applies after %@ relaunches."
+            "state" : "translated",
+            "value" : "Die Sprachänderung wird nach dem Neustart von %@ wirksam."
           }
         },
         "es" : {
@@ -25944,8 +25944,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The language change applies after %@ relaunches."
+            "state" : "translated",
+            "value" : "語言變更會在 %@ 重新啟動後生效。"
           }
         }
       }
@@ -26197,8 +26197,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "What %@ Sees"
+            "state" : "translated",
+            "value" : "Was %@ sieht"
           }
         },
         "es" : {
@@ -26299,8 +26299,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "What %@ Sees"
+            "state" : "translated",
+            "value" : "%@ 看到的畫面"
           }
         }
       }
@@ -26315,8 +26315,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "When a hidden item starts blinking its icon, briefly show its section so you see it. Thaw tells a blink apart from a clock or a battery percentage by whether the icon keeps returning to a state it already showed. It shows the section rather than moving the item, and the usual rehide puts it back."
+            "state" : "translated",
+            "value" : "Wenn das Symbol eines ausgeblendeten Elements zu blinken beginnt, wird dessen Bereich kurz eingeblendet, damit man es sehen kann. Thaw unterscheidet ein blinkendes Symbol von einer Uhr oder einer Batterieanzeige daran, dass das Symbol immer wieder in einen Zustand zurückkehrt, den es bereits angezeigt hat. Dabei wird der Bereich eingeblendet, anstatt das Element zu verschieben, und durch das übliche Ausblenden wird es wieder verborgen."
           }
         },
         "es" : {
@@ -26417,8 +26417,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "When a hidden item starts blinking its icon, briefly show its section so you see it. Thaw tells a blink apart from a clock or a battery percentage by whether the icon keeps returning to a state it already showed. It shows the section rather than moving the item, and the usual rehide puts it back."
+            "state" : "translated",
+            "value" : "當隱藏項目的圖示開始閃爍時，短暫顯示其所在的區段讓您看見。Thaw 會依據圖示是否不斷回到先前顯示過的狀態，來區分閃爍與時鐘或電池百分比。此功能只會顯示區段而不會移動項目，之後由一般的重新隱藏機制將其收回。"
           }
         }
       }
@@ -26790,8 +26790,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "While this trigger is on, it controls its target's section and your saved layout no longer applies to it."
+            "state" : "translated",
+            "value" : "Solange dieser Auslöser aktiviert ist, steuert er den entsprechenden Abschnitt seines Ziels, und dein gespeichertes Layout gilt dort nicht mehr."
           }
         },
         "es" : {
@@ -26892,8 +26892,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "While this trigger is on, it controls its target's section and your saved layout no longer applies to it."
+            "state" : "translated",
+            "value" : "此觸發條件開啟期間，會由它控制目標項目所在的區段，您儲存的佈局不再套用於該項目。"
           }
         }
       }
@@ -27391,8 +27391,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Without Screen Recording, menu bar items appear as their app's icon rather than a live preview. You can still arrange them."
+            "state" : "translated",
+            "value" : "Ohne Bildschirmaufzeichnung werden Menüpunkte als Symbol der jeweiligen App und nicht als Live-Vorschau angezeigt. Sie können sie dennoch anordnen."
           }
         },
         "es" : {
@@ -27493,8 +27493,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Without Screen Recording, menu bar items appear as their app's icon rather than a live preview. You can still arrange them."
+            "state" : "translated",
+            "value" : "未授予螢幕錄製權限時，選單列項目會以其應用程式圖示顯示，而非即時預覽。您仍然可以排列它們。"
           }
         }
       }
@@ -27866,8 +27866,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Zen mode is off"
+            "state" : "translated",
+            "value" : "Zen Mode ist ausgeschaltet"
           }
         },
         "es" : {
@@ -27968,8 +27968,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Zen mode is off"
+            "state" : "translated",
+            "value" : "Zen 模式已關閉"
           }
         }
       }
@@ -27984,8 +27984,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Watched item"
+            "state" : "translated",
+            "value" : "Gesehenes Objekt"
           }
         },
         "es" : {
@@ -28086,8 +28086,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Watched item"
+            "state" : "translated",
+            "value" : "監看的項目"
           }
         }
       }
@@ -28340,8 +28340,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use Current Appearance for This Space"
+            "state" : "translated",
+            "value" : "Für diesen Bereich das aktuelle Erscheinungsbild verwenden"
           }
         },
         "es" : {
@@ -28442,8 +28442,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use Current Appearance for This Space"
+            "state" : "translated",
+            "value" : "將目前外觀用於此 Space"
           }
         }
       }
@@ -29171,8 +29171,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use %@ in a different language than the system. Takes effect after a relaunch."
+            "state" : "translated",
+            "value" : "Verwenden Sie %@ in einer anderen Sprache als der Systemsprache. Die Änderung wird erst nach einem Neustart wirksam."
           }
         },
         "es" : {
@@ -29273,8 +29273,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use %@ in a different language than the system. Takes effect after a relaunch."
+            "state" : "translated",
+            "value" : "讓 %@ 使用與系統不同的語言。重新啟動後生效。"
           }
         }
       }
@@ -29290,8 +29290,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use a separate appearance"
+            "state" : "translated",
+            "value" : "Verwende ein separates Erscheinungsbild"
           }
         },
         "es" : {
@@ -29392,8 +29392,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use a separate appearance"
+            "state" : "translated",
+            "value" : "使用獨立外觀"
           }
         }
       }
@@ -29408,8 +29408,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use Current Location"
+            "state" : "translated",
+            "value" : "Aktuellen Standort verwenden"
           }
         },
         "es" : {
@@ -29510,8 +29510,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Use Current Location"
+            "state" : "translated",
+            "value" : "使用目前位置"
           }
         }
       }
@@ -30713,8 +30713,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The report retains installed-app identities, menu-item titles and status text, and display/menu-bar geometry for debugging. It attempts to redact other potentially sensitive information, but redaction cannot be guaranteed. Review the report before sharing it."
+            "state" : "translated",
+            "value" : "Der Bericht enthält die Bezeichnungen der installierten Apps, die Titel der Menüeinträge und den Statustext sowie die Geometrie der Anzeige und der Menüleiste zu Fehlerbehebungs-Zwecken. Er versucht, andere potenziell sensible Informationen zu schwärzen, jedoch kann eine vollständige Schwärzung nicht garantiert werden. Überprüfe den Bericht, bevor er weitergeben wird."
           }
         },
         "es" : {
@@ -30815,8 +30815,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The report retains installed-app identities, menu-item titles and status text, and display/menu-bar geometry for debugging. It attempts to redact other potentially sensitive information, but redaction cannot be guaranteed. Review the report before sharing it."
+            "state" : "translated",
+            "value" : "為了除錯，報告會保留已安裝應用程式的識別資訊、選單項目標題與狀態文字，以及顯示器與選單列的幾何資訊。報告會嘗試遮蔽其他可能敏感的資訊，但無法保證完全遮蔽。分享前請先檢視報告內容。"
           }
         }
       }
@@ -30832,8 +30832,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Screen Recording is off, so %@ reads nothing."
+            "state" : "translated",
+            "value" : "Die Bildschirmaufzeichnung ist deaktiviert, daher wird %@ nicht angezeigt."
           }
         },
         "es" : {
@@ -30934,8 +30934,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Screen Recording is off, so %@ reads nothing."
+            "state" : "translated",
+            "value" : "螢幕錄製已關閉，因此 %@ 無法讀取任何內容。"
           }
         }
       }
@@ -30951,8 +30951,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show hidden items on"
+            "state" : "translated",
+            "value" : "Versteckte Elemente anzeigen auf"
           }
         },
         "es" : {
@@ -31053,8 +31053,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show hidden items on"
+            "state" : "translated",
+            "value" : "顯示隱藏項目的方式"
           }
         }
       }
@@ -31188,8 +31188,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show All Off in menu bar dropdown"
+            "state" : "translated",
+            "value" : "„Alle anzeigen“ im Dropdown-Menü der Menüleiste"
           }
         },
         "es" : {
@@ -31290,8 +31290,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show All Off in menu bar dropdown"
+            "state" : "translated",
+            "value" : "在選單列下拉選單中顯示「全部關閉」"
           }
         }
       }
@@ -31664,8 +31664,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show app icons instead of live previews"
+            "state" : "translated",
+            "value" : "App-Symbole anstatt von Live-Vorschauen anzeigen"
           }
         },
         "es" : {
@@ -31766,8 +31766,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show app icons instead of live previews"
+            "state" : "translated",
+            "value" : "顯示應用程式圖示而非即時預覽"
           }
         }
       }
@@ -31901,8 +31901,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show hidden menu bar items by clicking, hovering, or scrolling in an empty area of the menu bar."
+            "state" : "translated",
+            "value" : "Zeige ausgeblendete Menüleistenelemente an, indem du auf einen leeren Bereich der Menüleiste klickst, den Mauszeiger darüber bewegst oder dort scrollst."
           }
         },
         "es" : {
@@ -32003,8 +32003,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show hidden menu bar items by clicking, hovering, or scrolling in an empty area of the menu bar."
+            "state" : "translated",
+            "value" : "在選單列的空白區域點按、懸停或捲動，以顯示隱藏的選單列項目。"
           }
         }
       }
@@ -32382,8 +32382,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show in"
+            "state" : "translated",
+            "value" : "Anzeigen in"
           }
         },
         "es" : {
@@ -32484,8 +32484,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show in"
+            "state" : "translated",
+            "value" : "顯示於"
           }
         }
       }
@@ -33805,8 +33805,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Scroll"
+            "state" : "translated",
+            "value" : "Scrollen"
           }
         },
         "es" : {
@@ -33907,8 +33907,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Scroll"
+            "state" : "translated",
+            "value" : "捲動"
           }
         }
       }
@@ -34519,8 +34519,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Second item"
+            "state" : "translated",
+            "value" : "Zweiter Punkt"
           }
         },
         "es" : {
@@ -34621,8 +34621,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Second item"
+            "state" : "translated",
+            "value" : "第二個項目"
           }
         }
       }
@@ -35111,8 +35111,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Settings"
+            "state" : "translated",
+            "value" : "Einstellungen"
           }
         },
         "es" : {
@@ -35213,8 +35213,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Settings"
+            "state" : "translated",
+            "value" : "設定"
           }
         }
       }
@@ -35347,8 +35347,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Settings were reset to defaults."
+            "state" : "translated",
+            "value" : "Die Einstellungen wurden auf die Standardwerte zurückgesetzt."
           }
         },
         "es" : {
@@ -35449,8 +35449,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Settings were reset to defaults."
+            "state" : "translated",
+            "value" : "設定已重置為預設值。"
           }
         }
       }
@@ -35940,8 +35940,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The item was left in the visible section so it isn't stuck offscreen. Try dragging it again in a moment."
+            "state" : "translated",
+            "value" : "Das Element wurde im sichtbaren Bereich belassen, damit es nicht außerhalb des Bildschirms landet. Versuche es in einem Moment noch einmal zu verschieben."
           }
         },
         "es" : {
@@ -36297,8 +36297,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Surface hidden items that ask for attention"
+            "state" : "translated",
+            "value" : "Versteckte Elemente sichtbar machen, die Aufmerksamkeit erfordern"
           }
         },
         "es" : {
@@ -36399,8 +36399,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Surface hidden items that ask for attention"
+            "state" : "translated",
+            "value" : "顯示需要注意的隱藏項目"
           }
         }
       }
@@ -36416,8 +36416,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Switch to Beta Updates"
+            "state" : "translated",
+            "value" : "Zu den Beta-Updates wechseln"
           }
         },
         "es" : {
@@ -36482,8 +36482,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Switch to Beta Updates"
+            "state" : "translated",
+            "value" : "Перейти на бета-обновления"
           }
         },
         "th" : {
@@ -36512,14 +36512,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Switch to Beta Updates"
+            "state" : "translated",
+            "value" : "切换到 Beta 版更新"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Switch to Beta Updates"
+            "state" : "translated",
+            "value" : "切換至測試版更新"
           }
         }
       }
@@ -36534,8 +36534,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "System Default"
+            "state" : "translated",
+            "value" : "Systemstandard"
           }
         },
         "es" : {
@@ -36636,8 +36636,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "System Default"
+            "state" : "translated",
+            "value" : "系統預設"
           }
         }
       }
@@ -36771,8 +36771,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Thaw reads a band across the top of your display — the menu bar and its background. That band can contain the frontmost app's menus."
+            "state" : "translated",
+            "value" : "Thaw liest einen Streifen am oberen Rand Ihres Bildschirms ein – die Menüleiste und deren Hintergrund. Dieser Streifen kann die Menüs der App enthalten, die gerade im Vordergrund läuft."
           }
         },
         "es" : {
@@ -36873,8 +36873,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Thaw reads a band across the top of your display — the menu bar and its background. That band can contain the frontmost app's menus."
+            "state" : "translated",
+            "value" : "Thaw 會讀取顯示器頂端的一條橫帶區域，也就是選單列及其背景。這條區域可能包含最前方應用程式的選單。"
           }
         }
       }
@@ -37603,8 +37603,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The %@ section is collapsed, so its divider is offscreen. Open the section and try dragging the item again."
+            "state" : "translated",
+            "value" : "Der Abschnitt „%@“ ist ausgeblendet, sodass seine Trennlinie nicht auf dem Bildschirm zu sehen ist. Öffne den Abschnitt und versuche erneut, das Element zu ziehen."
           }
         },
         "es" : {
@@ -37705,8 +37705,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The %@ section is collapsed, so its divider is offscreen. Open the section and try dragging the item again."
+            "state" : "translated",
+            "value" : "「%@」區段已收合，因此其分隔線位於螢幕外。請展開該區段後再試著拖曳項目。"
           }
         }
       }
@@ -37722,8 +37722,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The active Space is still settling. Switch away and back to assign a profile."
+            "state" : "translated",
+            "value" : "Der aktive Bereich ist noch nicht vollständig eingerichtet. Wechsle kurz zu einem anderen Bereich und zurück, um ein Profil zuzuweisen."
           }
         },
         "es" : {
@@ -37824,8 +37824,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The active Space is still settling. Switch away and back to assign a profile."
+            "state" : "translated",
+            "value" : "目前使用中的 Space 尚未就緒。請先切換到其他 Space 再切回來，以指派設定檔。"
           }
         }
       }
@@ -38078,8 +38078,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The capture returned nothing for this display."
+            "state" : "translated",
+            "value" : "Die Abfrage lieferte für diese Anzeige keine Ergebnisse."
           }
         },
         "es" : {
@@ -38180,8 +38180,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "The capture returned nothing for this display."
+            "state" : "translated",
+            "value" : "此顯示器的擷取未回傳任何內容。"
           }
         }
       }
@@ -38316,8 +38316,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Style the %@ Bar on its own instead of matching the menu bar."
+            "state" : "translated",
+            "value" : "Gestalte die %@-Leiste eigenständig, anstatt sie an die Menüleiste anzupassen."
           }
         },
         "es" : {
@@ -38418,8 +38418,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Style the %@ Bar on its own instead of matching the menu bar."
+            "state" : "translated",
+            "value" : "為 %@ 列設定獨立的樣式，而不是與選單列一致。"
           }
         }
       }
@@ -38435,8 +38435,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show setting descriptions"
+            "state" : "translated",
+            "value" : "Einstellungsbeschreibung anzeigen"
           }
         },
         "es" : {
@@ -38537,8 +38537,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Show setting descriptions"
+            "state" : "translated",
+            "value" : "顯示設定說明"
           }
         }
       }
@@ -38553,8 +38553,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spacer"
+            "state" : "translated",
+            "value" : "Abstandhalter"
           }
         },
         "es" : {
@@ -38655,8 +38655,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spacer"
+            "state" : "translated",
+            "value" : "間隔"
           }
         }
       }
@@ -38909,8 +38909,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Shows only the essential settings. All features keep working and keep their configuration."
+            "state" : "translated",
+            "value" : "Zeigt nur die wichtigsten Einstellungen an. Alle Funktionen bleiben weiterhin verfügbar und behalten ihre Konfiguration bei."
           }
         },
         "es" : {
@@ -39011,8 +39011,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Shows only the essential settings. All features keep working and keep their configuration."
+            "state" : "translated",
+            "value" : "只顯示基本設定。所有功能仍持續運作並保留各自的設定。"
           }
         }
       }
@@ -39146,8 +39146,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Simple Mode"
+            "state" : "translated",
+            "value" : "Einfacher Modus"
           }
         },
         "es" : {
@@ -39248,8 +39248,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Simple Mode"
+            "state" : "translated",
+            "value" : "簡易模式"
           }
         }
       }
@@ -39503,8 +39503,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Space"
+            "state" : "translated",
+            "value" : "Bereich"
           }
         },
         "es" : {
@@ -39605,7 +39605,7 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Space"
           }
         }
@@ -39621,8 +39621,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spacer color"
+            "state" : "translated",
+            "value" : "Bereichsfarbe"
           }
         },
         "es" : {
@@ -39723,8 +39723,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spacer color"
+            "state" : "translated",
+            "value" : "間隔顏色"
           }
         }
       }
@@ -39858,8 +39858,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spacers"
+            "state" : "translated",
+            "value" : "Bereiche"
           }
         },
         "es" : {
@@ -39960,8 +39960,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spacers"
+            "state" : "translated",
+            "value" : "間隔"
           }
         }
       }
@@ -39976,8 +39976,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spaces with overrides: %lld"
+            "state" : "translated",
+            "value" : "Bereich mit Überschreibungen: %lld"
           }
         },
         "es" : {
@@ -40078,8 +40078,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Spaces with overrides: %lld"
+            "state" : "translated",
+            "value" : "有覆寫的 Space：%lld"
           }
         }
       }
@@ -40569,8 +40569,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Start a new log file once the current one reaches this size."
+            "state" : "translated",
+            "value" : "Eröffne eine neue Protokolldatei, sobald die aktuelle diese Größe erreicht hat."
           }
         },
         "es" : {
@@ -40671,8 +40671,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Start a new log file once the current one reaches this size."
+            "state" : "translated",
+            "value" : "當目前的記錄檔達到此大小時，另起新的記錄檔。"
           }
         }
       }
@@ -40806,8 +40806,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Maximum log file size in megabytes"
+            "state" : "translated",
+            "value" : "Maximale Größe der Protokolldatei in Megabyte"
           }
         },
         "es" : {
@@ -40908,8 +40908,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Maximum log file size in megabytes"
+            "state" : "translated",
+            "value" : "記錄檔大小上限，單位為 MB"
           }
         }
       }
@@ -41071,14 +41071,14 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "[%lld item]"
+                  "state" : "translated",
+                  "value" : "%lld Eintrag"
                 }
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "[%lld items]"
+                  "state" : "translated",
+                  "value" : "%lld Einträge"
                 }
               }
             }
@@ -41395,8 +41395,8 @@
             "plural" : {
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "[%lld items]"
+                  "state" : "translated",
+                  "value" : "[%lld 個項目]"
                 }
               }
             }
@@ -41652,8 +41652,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery level"
+            "state" : "translated",
+            "value" : "Akkustand"
           }
         },
         "es" : {
@@ -41889,8 +41889,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Behavior"
+            "state" : "translated",
+            "value" : "Verhalten"
           }
         },
         "es" : {
@@ -41991,8 +41991,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Behavior"
+            "state" : "translated",
+            "value" : "行為"
           }
         }
       }
@@ -42840,8 +42840,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Cache cleared. Quitting…"
+            "state" : "translated",
+            "value" : "Cache geleert. Beende das Programm…"
           }
         },
         "es" : {
@@ -42942,8 +42942,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Cache cleared. Quitting…"
+            "state" : "translated",
+            "value" : "快取已清除。正在結束⋯"
           }
         }
       }
@@ -43315,8 +43315,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Capture One Frame"
+            "state" : "translated",
+            "value" : "Ein Einzelbild aufnehmen"
           }
         },
         "es" : {
@@ -43417,8 +43417,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Capture One Frame"
+            "state" : "translated",
+            "value" : "擷取單一畫面"
           }
         }
       }
@@ -43433,8 +43433,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Capture Reference"
+            "state" : "translated",
+            "value" : "Aufnahme-Referenz"
           }
         },
         "es" : {
@@ -43535,8 +43535,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Capture Reference"
+            "state" : "translated",
+            "value" : "擷取參考圖"
           }
         }
       }
@@ -43789,8 +43789,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Capturing…"
+            "state" : "translated",
+            "value" : "Aufnahme..."
           }
         },
         "es" : {
@@ -43891,8 +43891,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Capturing…"
+            "state" : "translated",
+            "value" : "擷取中⋯"
           }
         }
       }
@@ -44739,8 +44739,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Assigns a profile to the Space you are currently on. Spaces have no system name, so each assignment is labelled by its Mission Control position at the time you made it. A Space assignment takes precedence over a display assignment; a Focus Filter still overrides both."
+            "state" : "translated",
+            "value" : "Weist dem Space, in dem du dich gerade befindest, ein Profil zu. Spaces haben keinen Systemnamen, daher wird jede Zuweisung mit ihrer Position im Mission Control zum Zeitpunkt der Zuweisung gekennzeichnet. Eine Space-Zuweisung hat Vorrang vor einer Display-Zuweisung; ein Fokusfilter hat jedoch weiterhin Vorrang vor beiden."
           }
         },
         "es" : {
@@ -44835,14 +44835,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Assigns a profile to the Space you are currently on. Spaces have no system name, so each assignment is labelled by its Mission Control position at the time you made it. A Space assignment takes precedence over a display assignment; a Focus Filter still overrides both."
+            "state" : "translated",
+            "value" : "为当前所在的空间分配一个配置文件。空间没有系统名称，因此每次分配都会以你分配时该空间在“调度中心”中的位置来标记。空间分配优先于显示器分配；专注模式过滤器仍会覆盖这两者。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Assigns a profile to the Space you are currently on. Spaces have no system name, so each assignment is labelled by its Mission Control position at the time you made it. A Space assignment takes precedence over a display assignment; a Focus Filter still overrides both."
+            "state" : "translated",
+            "value" : "將設定檔指派給您目前所在的 Space。Space 沒有系統名稱，因此每個指派都以您建立指派當時它在 Mission Control 中的位置來標示。Space 指派的優先權高於顯示器指派；專注模式篩選條件則仍會覆寫兩者。"
           }
         }
       }
@@ -45215,8 +45215,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "automatic"
+            "state" : "translated",
+            "value" : "automatisch"
           }
         },
         "es" : {
@@ -45333,8 +45333,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatic rehiding is off"
+            "state" : "translated",
+            "value" : "Die automatische Wiederausblendung ist deaktiviert"
           }
         },
         "es" : {
@@ -45435,8 +45435,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatic rehiding is off"
+            "state" : "translated",
+            "value" : "自動重新隱藏已關閉"
           }
         }
       }
@@ -45451,8 +45451,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatic rehiding is on"
+            "state" : "translated",
+            "value" : "Die automatische Wiederausblendung ist aktiviert"
           }
         },
         "es" : {
@@ -45553,8 +45553,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatic rehiding is on"
+            "state" : "translated",
+            "value" : "自動重新隱藏已開啟"
           }
         }
       }
@@ -46045,8 +46045,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatically reveal a menu bar item while a condition is met, then hide it again when the condition no longer applies. Turn on more condition types in Trigger Sources."
+            "state" : "translated",
+            "value" : "Ein Menüleistenelement wird automatisch eingeblendet, solange eine Bedingung erfüllt ist, und wieder ausgeblendet, sobald die Bedingung nicht mehr zutrifft. Aktiviere weitere Bedingungstypen unter „Auslösequellen“."
           }
         },
         "en" : {
@@ -46117,8 +46117,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatically reveal a menu bar item while a condition is met, then hide it again when the condition no longer applies. Turn on more condition types in Trigger Sources."
+            "state" : "translated",
+            "value" : "Автоматически показывать элемент строки меню, пока выполняется условие, и снова скрывать его, когда условие перестаёт выполняться. Включите дополнительные типы условий в разделе «Источники триггеров»."
           }
         },
         "th" : {
@@ -46147,14 +46147,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatically reveal a menu bar item while a condition is met, then hide it again when the condition no longer applies. Turn on more condition types in Trigger Sources."
+            "state" : "translated",
+            "value" : "当条件满足时自动显示某个菜单栏项目，条件不再满足时再将其隐藏。在“触发源”中启用更多条件类型。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Automatically reveal a menu bar item while a condition is met, then hide it again when the condition no longer applies. Turn on more condition types in Trigger Sources."
+            "state" : "translated",
+            "value" : "在符合條件期間自動顯示選單列項目，條件不再成立時再將其隱藏。可在「觸發來源」中開啟更多條件類型。"
           }
         }
       }
@@ -46169,8 +46169,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Captures the icon now as a reference, then reveals the item when the icon later changes from it. Requires screen recording permission."
+            "state" : "translated",
+            "value" : "Speichert das Symbol nun als Referenz und zeigt das Element an, sobald sich das Symbol später davon unterscheidet. Erfordert die Berechtigung zur Bildschirmaufzeichnung."
           }
         },
         "es" : {
@@ -46271,8 +46271,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Captures the icon now as a reference, then reveals the item when the icon later changes from it. Requires screen recording permission."
+            "state" : "translated",
+            "value" : "立即擷取目前的圖示作為參考圖，之後當圖示與參考圖不同時顯示該項目。需要螢幕錄製權限。"
           }
         }
       }
@@ -46287,8 +46287,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Changing menu bar spacing for a display can relaunch apps with menu bar items. Unsaved input, progress, or transient app state may be lost."
+            "state" : "translated",
+            "value" : "Das Ändern des Abstands der Menüleiste auf einem Bildschirm kann dazu führen, dass Apps mit Menüleistenelementen neu gestartet werden. Ungespeicherte Eingaben, Fortschrittsdaten oder vorübergehende App-Zustände können dabei verloren gehen."
           }
         },
         "es" : {
@@ -46776,8 +46776,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Condition"
+            "state" : "translated",
+            "value" : "Zustand"
           }
         },
         "es" : {
@@ -46878,8 +46878,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Condition"
+            "state" : "translated",
+            "value" : "條件"
           }
         }
       }
@@ -46894,8 +46894,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Click"
+            "state" : "translated",
+            "value" : "Klick"
           }
         },
         "es" : {
@@ -46996,8 +46996,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Click"
+            "state" : "translated",
+            "value" : "點按"
           }
         }
       }
@@ -47132,8 +47132,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Click an item to open it. Hidden items are temporarily revealed."
+            "state" : "translated",
+            "value" : "Klicke auf ein Element, um es zu öffnen. Versteckte Elemente werden vorübergehend angezeigt."
           }
         },
         "es" : {
@@ -47228,14 +47228,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Click an item to open it. Hidden items are temporarily revealed."
+            "state" : "translated",
+            "value" : "点击某个项目即可打开它。隐藏的项目会临时显示出来。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Click an item to open it. Hidden items are temporarily revealed."
+            "state" : "translated",
+            "value" : "點按項目即可開啟。隱藏的項目會暫時顯示。"
           }
         }
       }
@@ -47487,8 +47487,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Collapse trigger"
+            "state" : "translated",
+            "value" : "Einklapp- Auslöser"
           }
         },
         "es" : {
@@ -47589,8 +47589,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Collapse trigger"
+            "state" : "translated",
+            "value" : "收合觸發條件"
           }
         }
       }
@@ -47724,8 +47724,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Conditional Triggers"
+            "state" : "translated",
+            "value" : "Bedingte Auslöser"
           }
         },
         "es" : {
@@ -47826,8 +47826,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Conditional Triggers"
+            "state" : "translated",
+            "value" : "條件觸發"
           }
         }
       }
@@ -48795,8 +48795,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Control Center preferences were reset."
+            "state" : "translated",
+            "value" : "Kontrollcenter Einstellungen wurden zurückgesetzt."
           }
         },
         "es" : {
@@ -48891,14 +48891,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Control Center preferences were reset."
+            "state" : "translated",
+            "value" : "控制中心偏好设置已重置。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Control Center preferences were reset."
+            "state" : "translated",
+            "value" : "控制中心偏好設定已重置。"
           }
         }
       }
@@ -49031,8 +49031,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Clear Accessibility and Screen Recording decisions for %@, then quit so you can re-grant them on next launch."
+            "state" : "translated",
+            "value" : "Deaktiviere die Berechtigungen für „Barrierefreiheit“ und „Bildschirmaufzeichnung“ für %@ und beende die Anwendung anschließend, damit diese beim nächsten Start wieder erteilt werden können."
           }
         },
         "es" : {
@@ -49127,14 +49127,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Clear Accessibility and Screen Recording decisions for %@, then quit so you can re-grant them on next launch."
+            "state" : "translated",
+            "value" : "清除 %@ 的“辅助功能”和“屏幕录制”权限决定，然后退出，以便下次启动时重新授予这些权限。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Clear Accessibility and Screen Recording decisions for %@, then quit so you can re-grant them on next launch."
+            "state" : "translated",
+            "value" : "清除 %@ 的「輔助使用」與「螢幕錄製」授權決定，然後結束應用程式，讓您能在下次啟動時重新授權。"
           }
         }
       }
@@ -50339,8 +50339,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose a device…"
+            "state" : "translated",
+            "value" : "Wähle ein Gerät..."
           }
         },
         "es" : {
@@ -50435,14 +50435,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose a device…"
+            "state" : "translated",
+            "value" : "选择设备……"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose a device…"
+            "state" : "translated",
+            "value" : "選擇裝置⋯"
           }
         }
       }
@@ -50576,8 +50576,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose an app…"
+            "state" : "translated",
+            "value" : "Wähle eine App..."
           }
         },
         "es" : {
@@ -50678,8 +50678,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose an app…"
+            "state" : "translated",
+            "value" : "選擇應用程式⋯"
           }
         }
       }
@@ -50694,8 +50694,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose an item"
+            "state" : "translated",
+            "value" : "Wähle ein Objekt"
           }
         },
         "es" : {
@@ -50796,8 +50796,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose an item"
+            "state" : "translated",
+            "value" : "選擇項目"
           }
         }
       }
@@ -50812,8 +50812,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose an item…"
+            "state" : "translated",
+            "value" : "Wähle ein Objekt..."
           }
         },
         "es" : {
@@ -50914,8 +50914,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose an item…"
+            "state" : "translated",
+            "value" : "選擇項目⋯"
           }
         }
       }
@@ -51405,8 +51405,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose…"
+            "state" : "translated",
+            "value" : "Wähle..."
           }
         },
         "es" : {
@@ -51507,8 +51507,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose…"
+            "state" : "translated",
+            "value" : "選擇⋯"
           }
         }
       }
@@ -51760,8 +51760,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Controlled by a trigger"
+            "state" : "translated",
+            "value" : "Steuerung über einen Auslöser"
           }
         },
         "es" : {
@@ -51862,8 +51862,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Controlled by a trigger"
+            "state" : "translated",
+            "value" : "由觸發條件控制"
           }
         }
       }
@@ -51997,8 +51997,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ spacer"
+            "state" : "translated",
+            "value" : "%@ Abstandhalter"
           }
         },
         "es" : {
@@ -52093,14 +52093,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ spacer"
+            "state" : "translated",
+            "value" : "%@ 间隔符"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ spacer"
+            "state" : "translated",
+            "value" : "%@ 間隔"
           }
         }
       }
@@ -52115,8 +52115,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ will delete its cache folder and quit. Launch the app again afterward."
+            "state" : "translated",
+            "value" : "%@ löscht seinen Cache-Ordner und wird beendet. Starte die App anschließend erneut."
           }
         },
         "es" : {
@@ -52211,14 +52211,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ will delete its cache folder and quit. Launch the app again afterward."
+            "state" : "translated",
+            "value" : "%@ 将删除其缓存文件夹并退出。之后请重新启动该应用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ will delete its cache folder and quit. Launch the app again afterward."
+            "state" : "translated",
+            "value" : "%@ 將刪除其快取資料夾並結束。之後請再次啟動應用程式。"
           }
         }
       }
@@ -52352,7 +52352,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%lld m"
           }
         },
@@ -52448,14 +52448,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%lld m"
+            "state" : "translated",
+            "value" : "%lld 分钟"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%lld m"
+            "state" : "translated",
+            "value" : "%lld 公尺"
           }
         }
       }
@@ -52588,8 +52588,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "A diagnostic report was saved to %@."
+            "state" : "translated",
+            "value" : "Ein Diagnosebericht wurde unter %@ gespeichert."
           }
         },
         "es" : {
@@ -52684,14 +52684,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "A diagnostic report was saved to %@."
+            "state" : "translated",
+            "value" : "诊断报告已保存到 %@。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "A diagnostic report was saved to %@."
+            "state" : "translated",
+            "value" : "診斷報告已儲存至 %@。"
           }
         }
       }
@@ -53062,8 +53062,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Accessibility and Screen Recording permissions will be cleared for %@. The app will quit so you can grant them again on next launch."
+            "state" : "translated",
+            "value" : "Die Berechtigungen für „Barrierefreiheit“ und „Bildschirmaufzeichnung“ werden für %@ zurückgesetzt. Die App wird beendet, damit diese Berechtigungen beim nächsten Start erneut erteilt werden können."
           }
         },
         "es" : {
@@ -53158,14 +53158,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Accessibility and Screen Recording permissions will be cleared for %@. The app will quit so you can grant them again on next launch."
+            "state" : "translated",
+            "value" : "将清除 %@ 的“辅助功能”和“屏幕录制”权限。该应用将退出，以便你在下次启动时重新授予这些权限。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Accessibility and Screen Recording permissions will be cleared for %@. The app will quit so you can grant them again on next launch."
+            "state" : "translated",
+            "value" : "將清除 %@ 的「輔助使用」與「螢幕錄製」權限。應用程式會結束，讓您能在下次啟動時重新授權。"
           }
         }
       }
@@ -53180,8 +53180,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Accessibility is all Simple Mode needs for hiding and arranging; adding Screen Recording draws your real menu bar icons in the layout editor."
+            "state" : "translated",
+            "value" : "Die Barrierefreiheit ist alles, was der „Simple Mode“ zum Ausblenden und Anordnen benötigt; durch Hinzufügen der Bildschirmaufzeichnung werden Ihre tatsächlichen Menüleisten-Symbole im Layout-Editor angezeigt."
           }
         },
         "es" : {
@@ -53276,14 +53276,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Accessibility is all Simple Mode needs for hiding and arranging; adding Screen Recording draws your real menu bar icons in the layout editor."
+            "state" : "translated",
+            "value" : "简单模式进行隐藏和排列只需要“辅助功能”权限；添加“屏幕录制”后，布局编辑器便能绘制出你真实的菜单栏图标。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Accessibility is all Simple Mode needs for hiding and arranging; adding Screen Recording draws your real menu bar icons in the layout editor."
+            "state" : "translated",
+            "value" : "簡易模式只需要「輔助使用」權限就能隱藏與排列項目；再加上「螢幕錄製」權限後，佈局編輯器就能繪製您真實的選單列圖示。"
           }
         }
       }
@@ -53774,8 +53774,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Adaptive Gradient"
+            "state" : "translated",
+            "value" : "Adaptiver Verlauf"
           }
         },
         "es" : {
@@ -53870,14 +53870,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Adaptive Gradient"
+            "state" : "translated",
+            "value" : "自适应渐变"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Adaptive Gradient"
+            "state" : "translated",
+            "value" : "自適應漸層"
           }
         }
       }
@@ -54249,8 +54249,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Add a trigger to reveal a menu bar item when a condition is met."
+            "state" : "translated",
+            "value" : "Füge einen Auslöser hinzu, um einen Menüleisten-Eintrag anzuzeigen, sobald eine Bedingung erfüllt ist."
           }
         },
         "es" : {
@@ -54345,14 +54345,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Add a trigger to reveal a menu bar item when a condition is met."
+            "state" : "translated",
+            "value" : "添加一个触发器，在条件满足时显示某个菜单栏项目。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Add a trigger to reveal a menu bar item when a condition is met."
+            "state" : "translated",
+            "value" : "新增觸發條件，在符合條件時顯示選單列項目。"
           }
         }
       }
@@ -54486,8 +54486,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ — placed by trigger “%2$@”"
+            "state" : "translated",
+            "value" : "%1$@ – platziert durch den Auslöser „%2$@“"
           }
         },
         "en" : {
@@ -54588,14 +54588,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ — placed by trigger “%2$@”"
+            "state" : "translated",
+            "value" : "%1$@ — 由触发器“%2$@”放置"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ — placed by trigger “%2$@”"
+            "state" : "translated",
+            "value" : "%1$@ — 由觸發條件「%2$@」放置"
           }
         }
       }
@@ -54610,8 +54610,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ (not present)"
+            "state" : "translated",
+            "value" : "%@ (nicht vorhanden)"
           }
         },
         "es" : {
@@ -54706,14 +54706,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ (not present)"
+            "state" : "translated",
+            "value" : "%@ (未显示)"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ (not present)"
+            "state" : "translated",
+            "value" : "%@（不存在）"
           }
         }
       }
@@ -54728,8 +54728,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ (not running)"
+            "state" : "translated",
+            "value" : "%@ (funktioniert nicht)"
           }
         },
         "es" : {
@@ -54824,14 +54824,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ (not running)"
+            "state" : "translated",
+            "value" : "%@ (未运行)"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ (not running)"
+            "state" : "translated",
+            "value" : "%@（未執行）"
           }
         }
       }
@@ -55821,8 +55821,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ can't currently tell which app owns \"%2$@\", so moving it is disabled. This usually resolves on its own; relaunching the app that owns the item can help."
+            "state" : "translated",
+            "value" : "%1$@ kann derzeit nicht erkennen, zu welcher App „%2$@“ gehört, daher ist das Verschieben deaktiviert. Dieses Problem löst sich in der Regel von selbst; ein Neustart der App, zu der das Element gehört, kann Abhilfe schaffen."
           }
         },
         "en" : {
@@ -55945,8 +55945,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ can't locate its hidden-section divider right now. It is attempting recovery in the background — try again in a few seconds."
+            "state" : "translated",
+            "value" : "%@ kann den Trenner für den versteckten Abschnitt derzeit nicht finden. Es wird im Hintergrund versucht, das Problem zu beheben – bitte versuche es in einigen Sekunden erneut."
           }
         },
         "es" : {
@@ -56301,8 +56301,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ failed with exit status %2$d: %3$@"
+            "state" : "translated",
+            "value" : "%1$@ ist mit dem Exit-Status %2$d fehlgeschlagen: %3$@"
           }
         },
         "en" : {
@@ -56403,14 +56403,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ failed with exit status %2$d: %3$@"
+            "state" : "translated",
+            "value" : "%1$@ 失败，退出状态为%2$d：%3$@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ failed with exit status %2$d: %3$@"
+            "state" : "translated",
+            "value" : "%1$@ 失敗，結束狀態為 %2$d：%3$@"
           }
         }
       }
@@ -56425,8 +56425,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ failed with exit status %2$d."
+            "state" : "translated",
+            "value" : "%1$@ ist mit dem Exit-Status %2$d fehlgeschlagen."
           }
         },
         "en" : {
@@ -56527,14 +56527,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ failed with exit status %2$d."
+            "state" : "translated",
+            "value" : "%1$@ 失败，退出状态为%2$d。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ failed with exit status %2$d."
+            "state" : "translated",
+            "value" : "%1$@ 失敗，結束狀態為 %2$d。"
           }
         }
       }
@@ -57381,8 +57381,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Another enabled trigger also targets this item. Priority runs top to bottom; the first active trigger wins."
+            "state" : "translated",
+            "value" : "Ein weiterer aktivierter Auslöser zielt ebenfalls auf dieses Element ab. Die Priorität gilt von oben nach unten; der erste aktive Auslöser hat Vorrang."
           }
         },
         "es" : {
@@ -57477,14 +57477,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Another enabled trigger also targets this item. Priority runs top to bottom; the first active trigger wins."
+            "state" : "translated",
+            "value" : "另一个已启用的触发器也作用于该项目。优先级从上到下，第一个处于活动状态的触发器生效。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Another enabled trigger also targets this item. Priority runs top to bottom; the first active trigger wins."
+            "state" : "translated",
+            "value" : "另一個已啟用的觸發條件也以此項目為目標。優先順序由上而下，第一個生效的觸發條件優先。"
           }
         }
       }
@@ -57499,8 +57499,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "App language"
+            "state" : "translated",
+            "value" : "App Sprache"
           }
         },
         "es" : {
@@ -57736,8 +57736,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Application"
+            "state" : "translated",
+            "value" : "Anwendung"
           }
         },
         "es" : {
@@ -59401,8 +59401,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Add Condition"
+            "state" : "translated",
+            "value" : "Bedingung hinzufügen"
           }
         },
         "es" : {
@@ -59519,8 +59519,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "All Trigger Features Off"
+            "state" : "translated",
+            "value" : "Alle Auslösefunktionen aus"
           }
         },
         "es" : {
@@ -59615,8 +59615,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "All Trigger Features Off"
+            "state" : "translated",
+            "value" : "所有触发器功能已关闭"
           }
         },
         "zh-Hant" : {
@@ -59637,8 +59637,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Add Spacer"
+            "state" : "translated",
+            "value" : "Abstandhalter hinzufügen"
           }
         },
         "es" : {
@@ -59755,8 +59755,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Add Trigger"
+            "state" : "translated",
+            "value" : "Auslöser hinzufügen"
           }
         },
         "es" : {
@@ -59873,8 +59873,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Adds the emergency trigger-feature shutoff to the three-dot menu. Keep this off unless a trigger source is disrupting normal computer use."
+            "state" : "translated",
+            "value" : "Fügt die Funktion „Notfall-Deaktivierung des Auslösers“ zum Drei-Punkte-Menü hinzu. Lass diese Funktion deaktiviert, es sei denn, ein Auslöser beeinträchtigt die normale Nutzung des Computers."
           }
         },
         "es" : {
@@ -59969,14 +59969,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Adds the emergency trigger-feature shutoff to the three-dot menu. Keep this off unless a trigger source is disrupting normal computer use."
+            "state" : "translated",
+            "value" : "将“紧急关闭触发器功能”选项添加到三点菜单中。除非某个触发源正在干扰电脑的正常使用，否则请保持此选项关闭。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Adds the emergency trigger-feature shutoff to the three-dot menu. Keep this off unless a trigger source is disrupting normal computer use."
+            "state" : "translated",
+            "value" : "將觸發功能的緊急關閉選項加入三點選單。除非某個觸發來源正在干擾電腦的正常使用，否則請保持關閉。"
           }
         }
       }
@@ -60346,8 +60346,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "All Off"
+            "state" : "translated",
+            "value" : "Alles aus"
           }
         },
         "es" : {
@@ -60442,8 +60442,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "All Off"
+            "state" : "translated",
+            "value" : "全部关闭"
           }
         },
         "zh-Hant" : {
@@ -61303,8 +61303,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also move"
+            "state" : "translated",
+            "value" : "Bewege auch"
           }
         },
         "es" : {
@@ -61399,8 +61399,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also move"
+            "state" : "translated",
+            "value" : "同时移动"
           }
         },
         "zh-Hant" : {
@@ -61421,8 +61421,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also move another item"
+            "state" : "translated",
+            "value" : "Bewege auch ein anderes Objekt"
           }
         },
         "es" : {
@@ -61517,8 +61517,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also move another item"
+            "state" : "translated",
+            "value" : "同时移动另一个项目"
           }
         },
         "zh-Hant" : {
@@ -61539,8 +61539,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also start a new log file once the current one has been open for an hour or a day. The size limit still applies."
+            "state" : "translated",
+            "value" : "Eröffne außerdem eine neue Protokolldatei, sobald die aktuelle seit einer Stunde oder einem Tag geöffnet ist. Die Größenbeschränkung gilt weiterhin."
           }
         },
         "es" : {
@@ -61635,14 +61635,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also start a new log file once the current one has been open for an hour or a day. The size limit still applies."
+            "state" : "translated",
+            "value" : "此外，当前日志文件打开满一小时或一天后，也会新建一个日志文件。大小限制仍然适用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Also start a new log file once the current one has been open for an hour or a day. The size limit still applies."
+            "state" : "translated",
+            "value" : "當目前的記錄檔已開啟一小時或一天後，也另起新的記錄檔。大小上限仍然適用。"
           }
         }
       }
@@ -61775,8 +61775,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Control Center will quit and its preference files will be deleted. macOS usually relaunches it automatically."
+            "state" : "translated",
+            "value" : "Das Control Center wird beendet und seine Einstellungsdateien werden gelöscht. macOS startet es in der Regel automatisch neu."
           }
         },
         "es" : {
@@ -61871,14 +61871,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Control Center will quit and its preference files will be deleted. macOS usually relaunches it automatically."
+            "state" : "translated",
+            "value" : "控制中心将退出，其偏好设置文件将被删除。macOS 通常会自动重新启动它。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Control Center will quit and its preference files will be deleted. macOS usually relaunches it automatically."
+            "state" : "translated",
+            "value" : "控制中心將會結束，其偏好設定檔案也會被刪除。macOS 通常會自動重新啟動它。"
           }
         }
       }
@@ -62011,8 +62011,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Match"
+            "state" : "translated",
+            "value" : "Übereinstimmung"
           }
         },
         "es" : {
@@ -62113,8 +62113,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Match"
+            "state" : "translated",
+            "value" : "符合"
           }
         }
       }
@@ -62604,8 +62604,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide the item while the condition is met (invert)"
+            "state" : "translated",
+            "value" : "Das Element ausblenden, solange die Bedingung erfüllt ist (umkehren)"
           }
         },
         "es" : {
@@ -62706,8 +62706,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide the item while the condition is met (invert)"
+            "state" : "translated",
+            "value" : "符合條件時改為隱藏項目（反向）"
           }
         }
       }
@@ -63318,8 +63318,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hourly"
+            "state" : "translated",
+            "value" : "Stündlich"
           }
         },
         "es" : {
@@ -63420,8 +63420,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hourly"
+            "state" : "translated",
+            "value" : "每小時"
           }
         }
       }
@@ -63437,8 +63437,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hover"
+            "state" : "translated",
+            "value" : "darüberfahren"
           }
         },
         "es" : {
@@ -63539,8 +63539,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hover"
+            "state" : "translated",
+            "value" : "懸停"
           }
         }
       }
@@ -63794,8 +63794,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How often animated icons refresh in the visible section, Hidden Thaw Bar, Search, and Layout. Always Hidden is capped at 1 fps. Higher values use more CPU."
+            "state" : "translated",
+            "value" : "Wie oft animierte Symbole im sichtbaren Bereich, in der „Versteckten Thaw Bar“, bei der Suche und im Layout aktualisiert werden. Bei „Immer ausgeblendet“ ist die Bildrate auf 1 FPS begrenzt. Höhere Werte beanspruchen mehr CPU-Leistung."
           }
         },
         "es" : {
@@ -63890,14 +63890,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How often animated icons refresh in the visible section, Hidden Thaw Bar, Search, and Layout. Always Hidden is capped at 1 fps. Higher values use more CPU."
+            "state" : "translated",
+            "value" : "动画图标在可见区域、Thaw 隐藏栏、搜索和布局中的刷新频率。“始终隐藏”的上限为 1 fps。数值越高，CPU 占用越高。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How often animated icons refresh in the visible section, Hidden Thaw Bar, Search, and Layout. Always Hidden is capped at 1 fps. Higher values use more CPU."
+            "state" : "translated",
+            "value" : "動態圖示在顯示區段、隱藏項目的 Thaw Bar、搜尋與佈局中的更新頻率。「一律隱藏」區段的上限為 1 fps。數值越高，CPU 用量越大。"
           }
         }
       }
@@ -64268,8 +64268,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide every concealable section for as long as a display is mirrored or your screen is being shared, then put it back. macOS offers no way to see that another app is recording the screen, so recordings are not covered."
+            "state" : "translated",
+            "value" : "Blende alle ausblendbaren Bereiche aus, solange eine Bildschirmspiegelung stattfindet oder der Bildschirm freigegeben ist, und blende sie anschließend wieder ein. Da macOS keine Möglichkeit bietet, zu erkennen, dass eine andere App den Bildschirm aufzeichnet, werden Aufzeichnungen nicht berücksichtigt."
           }
         },
         "es" : {
@@ -64364,14 +64364,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide every concealable section for as long as a display is mirrored or your screen is being shared, then put it back. macOS offers no way to see that another app is recording the screen, so recordings are not covered."
+            "state" : "translated",
+            "value" : "只要显示器处于镜像状态或你的屏幕正在被共享，就隐藏所有可隐藏区域，之后再恢复原状。macOS 无法检测到其他 App 正在录制屏幕，因此录屏情况不在覆盖范围内。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide every concealable section for as long as a display is mirrored or your screen is being shared, then put it back. macOS offers no way to see that another app is recording the screen, so recordings are not covered."
+            "state" : "translated",
+            "value" : "當顯示器正在鏡像輸出或螢幕正在分享時，隱藏所有可隱藏的區段，結束後再恢復。macOS 無法讓應用程式得知其他應用程式正在錄製螢幕，因此不涵蓋錄製的情況。"
           }
         }
       }
@@ -64630,7 +64630,7 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Global %@ pt"
           }
         },
@@ -64748,8 +64748,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "From"
+            "state" : "translated",
+            "value" : "Von"
           }
         },
         "es" : {
@@ -64844,14 +64844,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "From"
+            "state" : "translated",
+            "value" : "由"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "From"
+            "state" : "translated",
+            "value" : "從"
           }
         }
       }
@@ -64986,8 +64986,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Full Screen Space %lld"
+            "state" : "translated",
+            "value" : "Vollbildbereich %lld"
           }
         },
         "es" : {
@@ -65082,14 +65082,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Full Screen Space %lld"
+            "state" : "translated",
+            "value" : "全屏空间 %lld"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Full Screen Space %lld"
+            "state" : "translated",
+            "value" : "全螢幕 Space %lld"
           }
         }
       }
@@ -66414,8 +66414,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Group name"
+            "state" : "translated",
+            "value" : "Gruppenname"
           }
         },
         "es" : {
@@ -66510,14 +66510,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Group name"
+            "state" : "translated",
+            "value" : "分组名称"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Group name"
+            "state" : "translated",
+            "value" : "群組名稱"
           }
         }
       }
@@ -66533,8 +66533,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Grouped items stay adjacent: drag any member and the whole group moves with it."
+            "state" : "translated",
+            "value" : "Gruppierte Elemente bleiben nebeneinander: Wenn du ein beliebiges Element ziehst, bewegt sich die gesamte Gruppe mit."
           }
         },
         "es" : {
@@ -66629,14 +66629,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Grouped items stay adjacent: drag any member and the whole group moves with it."
+            "state" : "translated",
+            "value" : "已分组的项目会保持相邻：拖动任意成员时，整个分组都会随之移动。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Grouped items stay adjacent: drag any member and the whole group moves with it."
+            "state" : "translated",
+            "value" : "群組中的項目會保持相鄰：拖曳任一成員，整個群組會跟著移動。"
           }
         }
       }
@@ -66652,8 +66652,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Groups always move together: drag any member in the bars above and the whole group follows."
+            "state" : "translated",
+            "value" : "Gruppen bewegen sich immer gemeinsam: Ziehe ein beliebiges Objekt in den oben angezeigten Feldern und die gesamte Gruppe folgt."
           }
         },
         "es" : {
@@ -66748,14 +66748,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Groups always move together: drag any member in the bars above and the whole group follows."
+            "state" : "translated",
+            "value" : "分组始终一起移动：拖动上方栏中的任意成员，整个分组都会随之移动。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Groups always move together: drag any member in the bars above and the whole group follows."
+            "state" : "translated",
+            "value" : "群組一律一起移動：在上方的列中拖曳任一成員，整個群組都會跟著移動。"
           }
         }
       }
@@ -66770,8 +66770,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Help translate %@"
+            "state" : "translated",
+            "value" : "Hilf mit, %@ zu übersetzen"
           }
         },
         "es" : {
@@ -66866,14 +66866,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Help translate %@"
+            "state" : "translated",
+            "value" : "帮助翻译 %@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Help translate %@"
+            "state" : "translated",
+            "value" : "協助翻譯 %@"
           }
         }
       }
@@ -67601,8 +67601,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Layout reset. Items were moved to the Always Hidden section."
+            "state" : "translated",
+            "value" : "Layout zurückgesetzt. Die Elemente wurden in den Bereich „Immer ausgeblendet“ verschoben."
           }
         },
         "es" : {
@@ -68314,8 +68314,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Language"
+            "state" : "translated",
+            "value" : "Sprache"
           }
         },
         "es" : {
@@ -68416,8 +68416,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Language"
+            "state" : "translated",
+            "value" : "語言"
           }
         }
       }
@@ -68433,8 +68433,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Live previews are off"
+            "state" : "translated",
+            "value" : "Die Live-Vorschau ist deaktiviert"
           }
         },
         "es" : {
@@ -68529,14 +68529,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Live previews are off"
+            "state" : "translated",
+            "value" : "实时预览已关闭"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Live previews are off"
+            "state" : "translated",
+            "value" : "即時預覽已關閉"
           }
         }
       }
@@ -68551,8 +68551,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Live System State"
+            "state" : "translated",
+            "value" : "Aktueller Systemstatus"
           }
         },
         "es" : {
@@ -68647,14 +68647,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Live System State"
+            "state" : "translated",
+            "value" : "实时系统状态"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Live System State"
+            "state" : "translated",
+            "value" : "即時系統狀態"
           }
         }
       }
@@ -69025,8 +69025,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "macOS draws a solid menu bar while Reduce Transparency is on, so %@ cannot tint or reshape it. Turn the setting off to see these effects."
+            "state" : "translated",
+            "value" : "macOS zeigt bei aktivierter Option „Transparenz reduzieren“ eine einfarbige Menüleiste an, sodass %@ diese weder eingefärbt noch in ihrer Form verändert werden kann. Deaktiviere diese Einstellung, um diesen Effekt zu sehen."
           }
         },
         "es" : {
@@ -70807,8 +70807,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Inserts an empty gap item into the menu bar. Position it like any other item — hold ⌘ Command and drag it in the menu bar."
+            "state" : "translated",
+            "value" : "Fügt ein leeres Zwischenelement in die Menüleiste ein. Positioniere es wie jedes andere Element – halte die ⌘-Taste gedrückt und ziehe es in die Menüleiste."
           }
         },
         "es" : {
@@ -70903,14 +70903,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Inserts an empty gap item into the menu bar. Position it like any other item — hold ⌘ Command and drag it in the menu bar."
+            "state" : "translated",
+            "value" : "在菜单栏中插入一个空白间隔项。像放置其他项目一样放置它——按住 ⌘ Command 并在菜单栏中拖动。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Inserts an empty gap item into the menu bar. Position it like any other item — hold ⌘ Command and drag it in the menu bar."
+            "state" : "translated",
+            "value" : "在選單列中插入一個空白間隙項目。像其他項目一樣調整其位置：按住 ⌘ Command 並在選單列中拖曳它。"
           }
         }
       }
@@ -70925,8 +70925,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep logs for (days)"
+            "state" : "translated",
+            "value" : "Protokolle für (Tage) aufbewahren"
           }
         },
         "es" : {
@@ -71021,14 +71021,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep logs for (days)"
+            "state" : "translated",
+            "value" : "保留日志（天）"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep logs for (days)"
+            "state" : "translated",
+            "value" : "記錄保留時間（天）"
           }
         }
       }
@@ -71161,8 +71161,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Item groups"
+            "state" : "translated",
+            "value" : "Objektgruppe"
           }
         },
         "es" : {
@@ -71257,14 +71257,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Item groups"
+            "state" : "translated",
+            "value" : "项目组"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Item groups"
+            "state" : "translated",
+            "value" : "項目群組"
           }
         }
       }
@@ -71280,8 +71280,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Item icons are cropped out of this band to draw the layout editor, the Bar, and Search."
+            "state" : "translated",
+            "value" : "Die Symbole der Elemente werden aus diesem Bereich ausgeschnitten, um Platz für den Layout-Editor, die Menüleiste und die Suchfunktion zu schaffen."
           }
         },
         "es" : {
@@ -71376,14 +71376,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Item icons are cropped out of this band to draw the layout editor, the Bar, and Search."
+            "state" : "translated",
+            "value" : "项目图标会从该区域中裁切出来，用于绘制布局编辑器、栏和搜索。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Item icons are cropped out of this band to draw the layout editor, the Bar, and Search."
+            "state" : "translated",
+            "value" : "項目圖示會從這條區域裁切出來，用於繪製佈局編輯器、Thaw Bar 與搜尋。"
           }
         }
       }
@@ -71992,8 +71992,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Frame bounds: x=%1$lld, y=%2$lld, %3$lld×%4$lld pt"
+            "state" : "translated",
+            "value" : "Rahmengrenzen: x=%1$lld, y=%2$lld, %3$lld×%4$lld pt"
           }
         },
         "en" : {
@@ -72094,14 +72094,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Frame bounds: x=%1$lld, y=%2$lld, %3$lld×%4$lld pt"
+            "state" : "translated",
+            "value" : "框架边界: x=%1$lld, y=%2$lld, %3$lld×%4$lld pt"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Frame bounds: x=%1$lld, y=%2$lld, %3$lld×%4$lld pt"
+            "state" : "translated",
+            "value" : "畫面範圍：x=%1$lld、y=%2$lld、%3$lld×%4$lld pt"
           }
         }
       }
@@ -72593,8 +72593,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Desktop %lld"
+            "state" : "translated",
+            "value" : "Schreibtisch %lld"
           }
         },
         "es" : {
@@ -72689,14 +72689,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Desktop %lld"
+            "state" : "translated",
+            "value" : "桌面 %lld"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Desktop %lld"
+            "state" : "translated",
+            "value" : "桌面 %lld"
           }
         }
       }
@@ -72829,8 +72829,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger Sources"
+            "state" : "translated",
+            "value" : "Quellen für Auslöser"
           }
         },
         "en" : {
@@ -72901,8 +72901,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger Sources"
+            "state" : "translated",
+            "value" : "Источники триггеров"
           }
         },
         "th" : {
@@ -72931,14 +72931,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger Sources"
+            "state" : "translated",
+            "value" : "触发源"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Trigger Sources"
+            "state" : "translated",
+            "value" : "觸發來源"
           }
         }
       }
@@ -72953,8 +72953,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Device"
+            "state" : "translated",
+            "value" : "Gerät"
           }
         },
         "es" : {
@@ -73055,8 +73055,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Device"
+            "state" : "translated",
+            "value" : "裝置"
           }
         }
       }
@@ -73190,8 +73190,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Diagnostics and Onboarding are non-destructive. Reset and Troubleshooting can delete preferences, clear the cache, or quit apps."
+            "state" : "translated",
+            "value" : "Die Diagnose und die Ersteinrichtung sind nicht zerstörend. Beim Zurücksetzen und bei der Fehlerbehebung können Einstellungen gelöscht, der Cache geleert oder Apps beendet werden."
           }
         },
         "es" : {
@@ -73286,14 +73286,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Diagnostics and Onboarding are non-destructive. Reset and Troubleshooting can delete preferences, clear the cache, or quit apps."
+            "state" : "translated",
+            "value" : "“诊断”和“新手引导”是非破坏性的。“重置”和“故障排除”可能会删除偏好设置、清除缓存或退出应用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Diagnostics and Onboarding are non-destructive. Reset and Troubleshooting can delete preferences, clear the cache, or quit apps."
+            "state" : "translated",
+            "value" : "「診斷」與「新手導覽」不具破壞性。「重置」與「疑難排解」可能會刪除偏好設定、清除快取或結束應用程式。"
           }
         }
       }
@@ -73546,8 +73546,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Display"
+            "state" : "translated",
+            "value" : "Bildschirm"
           }
         },
         "es" : {
@@ -73648,8 +73648,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Display"
+            "state" : "translated",
+            "value" : "顯示器"
           }
         }
       }
@@ -74497,8 +74497,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete this trigger"
+            "state" : "translated",
+            "value" : "Diesen Auslöser löschen"
           }
         },
         "es" : {
@@ -74599,8 +74599,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete this trigger"
+            "state" : "translated",
+            "value" : "刪除此觸發條件"
           }
         }
       }
@@ -74615,8 +74615,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete older log files after this many days, or sooner if more than 50 pile up. The file being written is always kept."
+            "state" : "translated",
+            "value" : "Lösche ältere Protokolldateien nach dieser Anzahl von Tagen oder früher, wenn sich mehr als 50 angesammelt haben. Die Datei, in die gerade geschrieben wird, bleibt immer erhalten."
           }
         },
         "es" : {
@@ -74711,14 +74711,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete older log files after this many days, or sooner if more than 50 pile up. The file being written is always kept."
+            "state" : "translated",
+            "value" : "超过设定天数后删除较旧的日志文件；如果堆积超过 50 个，则会更早删除。正在写入的文件始终保留。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete older log files after this many days, or sooner if more than 50 pile up. The file being written is always kept."
+            "state" : "translated",
+            "value" : "刪除超過此天數的舊記錄檔；若累積超過 50 個檔案則會提前刪除。正在寫入的檔案一律保留。"
           }
         }
       }
@@ -75090,8 +75090,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Couldn't confirm that the group settled into place."
+            "state" : "translated",
+            "value" : "Es konnte nicht bestätigt werden, dass sich die Gruppe an ihrem Platz eingerichtet hat."
           }
         },
         "es" : {
@@ -75186,14 +75186,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Couldn't confirm that the group settled into place."
+            "state" : "translated",
+            "value" : "无法确认该分组是否已落定到位。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Couldn't confirm that the group settled into place."
+            "state" : "translated",
+            "value" : "無法確認群組已就定位。"
           }
         }
       }
@@ -75680,8 +75680,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Couldn't run tool"
+            "state" : "translated",
+            "value" : "Das Tool konnte nicht ausgeführt werden"
           }
         },
         "es" : {
@@ -75782,8 +75782,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Couldn't run tool"
+            "state" : "translated",
+            "value" : "無法執行工具"
           }
         }
       }
@@ -75799,8 +75799,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Create Group"
+            "state" : "translated",
+            "value" : "Gruppe erstellen"
           }
         },
         "es" : {
@@ -75901,8 +75901,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Create Group"
+            "state" : "translated",
+            "value" : "建立群組"
           }
         }
       }
@@ -75918,8 +75918,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Current Space"
+            "state" : "translated",
+            "value" : "Aktueller Bereich"
           }
         },
         "es" : {
@@ -76020,8 +76020,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Current Space"
+            "state" : "translated",
+            "value" : "目前的 Space"
           }
         }
       }
@@ -76037,8 +76037,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete %@'s cache folder, then quit the app."
+            "state" : "translated",
+            "value" : "Lösche den Cache-Ordner von %@ und beende anschließend die App."
           }
         },
         "es" : {
@@ -76133,14 +76133,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete %@'s cache folder, then quit the app."
+            "state" : "translated",
+            "value" : "删除 %@ 的缓存文件夹，然后退出该应用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete %@'s cache folder, then quit the app."
+            "state" : "translated",
+            "value" : "刪除 %@ 的快取資料夾，然後結束應用程式。"
           }
         }
       }
@@ -76274,8 +76274,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Custom delay"
+            "state" : "translated",
+            "value" : "Standard Verzögerung"
           }
         },
         "es" : {
@@ -76370,14 +76370,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Custom delay"
+            "state" : "translated",
+            "value" : "自定义延迟"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Custom delay"
+            "state" : "translated",
+            "value" : "自訂延遲"
           }
         }
       }
@@ -76512,8 +76512,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Daily"
+            "state" : "translated",
+            "value" : "Täglich"
           }
         },
         "es" : {
@@ -76614,8 +76614,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Daily"
+            "state" : "translated",
+            "value" : "每天"
           }
         }
       }
@@ -76749,8 +76749,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Days to keep log files"
+            "state" : "translated",
+            "value" : "Tage zum Aufbewahren von Protokolldateien"
           }
         },
         "es" : {
@@ -76851,8 +76851,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Days to keep log files"
+            "state" : "translated",
+            "value" : "記錄檔保留天數"
           }
         }
       }
@@ -77580,8 +77580,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter zen mode while presenting"
+            "state" : "translated",
+            "value" : "Während der Präsentation in den Zen-Modus wechseln"
           }
         },
         "es" : {
@@ -77676,14 +77676,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter zen mode while presenting"
+            "state" : "translated",
+            "value" : "演示时进入 Zen 模式"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enter zen mode while presenting"
+            "state" : "translated",
+            "value" : "簡報時進入 Zen 模式"
           }
         }
       }
@@ -78055,8 +78055,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Every saved status-item position will be deleted and the menu bar host will quit, so your whole menu bar arrangement is rebuilt from scratch."
+            "state" : "translated",
+            "value" : "Alle gespeicherten Positionen der Statuselemente werden gelöscht und die Menüleisten-Anwendung wird beendet, sodass die gesamte Anordnung der Menüleiste von Grund auf neu erstellt werden muss."
           }
         },
         "es" : {
@@ -78151,14 +78151,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Every saved status-item position will be deleted and the menu bar host will quit, so your whole menu bar arrangement is rebuilt from scratch."
+            "state" : "translated",
+            "value" : "所有已保存的状态项位置都将被删除，菜单栏宿主也会退出，因此你的整个菜单栏排列将从头重建。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Every saved status-item position will be deleted and the menu bar host will quit, so your whole menu bar arrangement is rebuilt from scratch."
+            "state" : "translated",
+            "value" : "所有已儲存的狀態項目位置都會被刪除，選單列宿主程序也會結束，整個選單列的排列將從頭重建。"
           }
         }
       }
@@ -78292,8 +78292,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Expand trigger"
+            "state" : "translated",
+            "value" : "Auslöser erweitern"
           }
         },
         "es" : {
@@ -78394,8 +78394,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Expand trigger"
+            "state" : "translated",
+            "value" : "展開觸發條件"
           }
         }
       }
@@ -78411,8 +78411,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Explains what a setting does directly beneath it, like this text."
+            "state" : "translated",
+            "value" : "Erklärt direkt unter der jeweiligen Einstellung, wozu diese dient, so wie dieser Text."
           }
         },
         "es" : {
@@ -78507,14 +78507,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Explains what a setting does directly beneath it, like this text."
+            "state" : "translated",
+            "value" : "在设置项正下方说明该设置的作用，就像这段文字一样。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Explains what a setting does directly beneath it, like this text."
+            "state" : "translated",
+            "value" : "在每個設定的正下方說明其作用，就像這段文字一樣。"
           }
         }
       }
@@ -78648,8 +78648,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enable the always-hidden section in Layout to configure icon gestures for that section."
+            "state" : "translated",
+            "value" : "Aktivieren den \"immer ausgeblendeten\" Bereich im Layout, um die Symbolgesten für diesen Bereich zu konfigurieren."
           }
         },
         "es" : {
@@ -79031,14 +79031,14 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "Failed to update configuration on [%lld profile]."
+                  "state" : "translated",
+                  "value" : "Die Konfiguration für [%lld profile] konnte nicht aktualisiert werden."
                 }
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "Failed to update configuration on [%lld profiles]."
+                  "state" : "translated",
+                  "value" : "Die Konfiguration konnte bei [%lld Profilen] nicht aktualisiert werden."
                 }
               }
             }
@@ -79355,8 +79355,8 @@
             "plural" : {
               "other" : {
                 "stringUnit" : {
-                  "state" : "new",
-                  "value" : "Failed to update configuration on [%lld profiles]."
+                  "state" : "translated",
+                  "value" : "無法更新 [%lld 個設定檔] 的設定。"
                 }
               }
             }
@@ -79493,8 +79493,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Fill the spacer with a color. Fully transparent renders as an empty gap."
+            "state" : "translated",
+            "value" : "Fülle den Zwischenraum mit einer Farbe aus. Vollständig transparent wird als leere Lücke dargestellt."
           }
         },
         "es" : {
@@ -79589,14 +79589,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Fill the spacer with a color. Fully transparent renders as an empty gap."
+            "state" : "translated",
+            "value" : "用颜色填充间隔项。完全透明时会呈现为空白间隙。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Fill the spacer with a color. Fully transparent renders as an empty gap."
+            "state" : "translated",
+            "value" : "為間隔填入顏色。完全透明時會呈現為空白間隙。"
           }
         }
       }
@@ -79729,8 +79729,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "First item"
+            "state" : "translated",
+            "value" : "Erstes Objekt"
           }
         },
         "es" : {
@@ -79831,8 +79831,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "First item"
+            "state" : "translated",
+            "value" : "第一個項目"
           }
         }
       }
@@ -80442,8 +80442,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Drag to change trigger priority"
+            "state" : "translated",
+            "value" : "Zum Ändern der Auslösepriorität ziehen"
           }
         },
         "es" : {
@@ -80538,14 +80538,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Drag to change trigger priority"
+            "state" : "translated",
+            "value" : "拖动可调整触发器优先级"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Drag to change trigger priority"
+            "state" : "translated",
+            "value" : "拖曳以變更觸發條件的優先順序"
           }
         }
       }
@@ -80561,8 +80561,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Draw each menu bar item as its app's icon everywhere %@ shows it. Items whose app cannot be identified keep their live preview."
+            "state" : "translated",
+            "value" : "Jedes Menüleistenelement wird überall dort als Symbol der zugehörigen App angezeigt, wo %@ es anzeigt. Elemente, deren App nicht identifiziert werden kann, behalten ihre Live-Vorschau bei."
           }
         },
         "es" : {
@@ -80657,14 +80657,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Draw each menu bar item as its app's icon everywhere %@ shows it. Items whose app cannot be identified keep their live preview."
+            "state" : "translated",
+            "value" : "在所有 %@ 显示菜单栏项目的位置，将每个菜单栏项目绘制为其所属 App 的图标。无法识别所属 App 的项目则保留实时预览。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Draw each menu bar item as its app's icon everywhere %@ shows it. Items whose app cannot be identified keep their live preview."
+            "state" : "translated",
+            "value" : "在 %@ 顯示選單列項目的所有位置，都以其應用程式圖示呈現。無法識別所屬應用程式的項目會維持即時預覽。"
           }
         }
       }
@@ -81630,8 +81630,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enable"
+            "state" : "translated",
+            "value" : "Aktivieren"
           }
         },
         "es" : {
@@ -81732,8 +81732,8 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Enable"
+            "state" : "translated",
+            "value" : "啟用"
           }
         }
       }
@@ -81867,8 +81867,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on the trigger sources you want to use. Each one adds its conditions to the Triggers pane and starts a background monitor. Battery and power conditions are always available."
+            "state" : "translated",
+            "value" : "Aktiviere die Auslöserquellen, die verwendet werden sollen. Jede Quelle fügt dem Bereich „Auslöser“ entsprechende Bedingungen hinzu und startet einen Hintergrundmonitor. Bedingungen zu Akku und Stromversorgung sind immer verfügbar."
           }
         },
         "en" : {
@@ -81939,8 +81939,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on the trigger sources you want to use. Each one adds its conditions to the Triggers pane and starts a background monitor. Battery and power conditions are always available."
+            "state" : "translated",
+            "value" : "Включите нужные источники триггеров. Каждый из них добавляет свои условия на панель «Триггеры» и запускает фоновый мониторинг. Условия, связанные с аккумулятором и питанием, доступны всегда."
           }
         },
         "th" : {
@@ -81969,14 +81969,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on the trigger sources you want to use. Each one adds its conditions to the Triggers pane and starts a background monitor. Battery and power conditions are always available."
+            "state" : "translated",
+            "value" : "开启你想使用的触发源。每个触发源都会将其条件添加到“触发器”面板，并启动一个后台监控器。电池和电源条件始终可用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Turn on the trigger sources you want to use. Each one adds its conditions to the Triggers pane and starts a background monitor. Battery and power conditions are always available."
+            "state" : "translated",
+            "value" : "開啟您想使用的觸發來源。每個來源都會將其條件加入「觸發條件」面板，並啟動背景監視。電池與電源條件一律可用。"
           }
         }
       }
@@ -82586,8 +82586,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Zen mode is on"
+            "state" : "translated",
+            "value" : "Zen Modus ist an"
           }
         },
         "es" : {
@@ -82682,14 +82682,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Zen mode is on"
+            "state" : "translated",
+            "value" : "Zen 模式已开启"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Zen mode is on"
+            "state" : "translated",
+            "value" : "Zen 模式已開啟"
           }
         }
       }
@@ -82705,8 +82705,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide Dock icon when toggling the menu bar"
+            "state" : "translated",
+            "value" : "Dock-Symbol beim Umschalten der Menüleiste ausblenden"
           }
         },
         "en" : {
@@ -82777,8 +82777,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide Dock icon when toggling the menu bar"
+            "state" : "translated",
+            "value" : "Скрывать значок в Dock при переключении строки меню"
           }
         },
         "th" : {
@@ -82807,14 +82807,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide Dock icon when toggling the menu bar"
+            "state" : "translated",
+            "value" : "切换菜单栏时隐藏“程序坞”图标"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide Dock icon when toggling the menu bar"
+            "state" : "translated",
+            "value" : "切換選單列時隱藏 Dock 圖示"
           }
         }
       }
@@ -82830,8 +82830,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep the app's icon out of the Dock when showing or hiding hidden menu bar items. If they need extra space, they open in the Thaw Bar instead of hiding the app menus. Settings windows still appear normally."
+            "state" : "translated",
+            "value" : "Das App-Symbol wird beim Ein- oder Ausblenden versteckter Menüleistenelemente nicht im Dock angezeigt. Wenn diese Elemente zusätzlichen Platz benötigen, werden sie in der Thaw-Leiste geöffnet, anstatt die App-Menüs auszublenden. Einstellungsfenster werden weiterhin wie gewohnt angezeigt."
           }
         },
         "en" : {
@@ -82902,8 +82902,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep the app's icon out of the Dock when showing or hiding hidden menu bar items. If they need extra space, they open in the Thaw Bar instead of hiding the app menus. Settings windows still appear normally."
+            "state" : "translated",
+            "value" : "Не показывать значок приложения в Dock при отображении или скрытии скрытых элементов строки меню. Если им требуется дополнительное место, они открываются в Thaw Bar вместо скрытия меню приложения. Окна настроек по-прежнему отображаются как обычно."
           }
         },
         "th" : {
@@ -82932,14 +82932,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep the app's icon out of the Dock when showing or hiding hidden menu bar items. If they need extra space, they open in the Thaw Bar instead of hiding the app menus. Settings windows still appear normally."
+            "state" : "translated",
+            "value" : "在显示或隐藏被隐藏的菜单栏项目时，让该应用的图标不出现在“程序坞”中。如果它们需要额外空间，会在 Thaw Bar 中打开，而不是隐藏应用菜单。设置窗口仍会正常显示。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keep the app's icon out of the Dock when showing or hiding hidden menu bar items. If they need extra space, they open in the Thaw Bar instead of hiding the app menus. Settings windows still appear normally."
+            "state" : "translated",
+            "value" : "在顯示或隱藏選單列的隱藏項目時，不讓應用程式圖示出現在 Dock 中。若這些項目需要額外空間，會改在 Thaw Bar 中開啟，而不是隱藏應用程式選單。設定視窗仍會正常顯示。"
           }
         }
       }
@@ -82955,8 +82955,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide opened items again after"
+            "state" : "translated",
+            "value" : "Geöffnete Elemente wieder ausblenden nach"
           }
         },
         "es" : {
@@ -83021,8 +83021,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide opened items again after"
+            "state" : "translated",
+            "value" : "Снова скрывать открытые элементы через"
           }
         },
         "th" : {
@@ -83051,14 +83051,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide opened items again after"
+            "state" : "translated",
+            "value" : "再次隐藏已打开项目的时间"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Hide opened items again after"
+            "state" : "translated",
+            "value" : "開啟的項目在此時間後重新隱藏"
           }
         }
       }
@@ -83074,8 +83074,8 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How long a hidden menu bar item you open from search or the %@ Bar stays in the menu bar after its menu closes."
+            "state" : "translated",
+            "value" : "Wie lange ein versteckter Menüleisten-Eintrag, der über die Suche oder die %@-Leiste geöffnet wird, in der Menüleiste verbleibt, nachdem sein Menü geschlossen wurde."
           }
         },
         "es" : {
@@ -83140,8 +83140,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How long a hidden menu bar item you open from search or the %@ Bar stays in the menu bar after its menu closes."
+            "state" : "translated",
+            "value" : "Как долго скрытый элемент строки меню, открытый через поиск или %@ Bar, остаётся в строке меню после закрытия его меню."
           }
         },
         "th" : {
@@ -83170,14 +83170,14 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How long a hidden menu bar item you open from search or the %@ Bar stays in the menu bar after its menu closes."
+            "state" : "translated",
+            "value" : "从搜索或 %@ 栏中打开的隐藏菜单栏项目，在其菜单关闭后，会在菜单栏中继续显示多长时间。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "How long a hidden menu bar item you open from search or the %@ Bar stays in the menu bar after its menu closes."
+            "state" : "translated",
+            "value" : "從搜尋或 %@ 列開啟的隱藏選單列項目，在其選單關閉後會在選單列中停留多久。"
           }
         }
       }
